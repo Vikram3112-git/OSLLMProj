@@ -1,0 +1,1082 @@
+[
+ {
+  "question": "First Come First Served (FCFS): Processes P1, P2, P3. Arrival times: 0, 0, 2. Burst times: 7, 3, 7. Calculate the average TAT and average WT. Show the Gantt chart.",
+  "algorithm": "FCFS",
+  "avg_tat": 10.67,
+  "avg_wt": 5.0
+ },
+ {
+  "question": "Using FIFO scheduling, schedule these processes. P1 arrives at 0 and needs 5. P2 arrives at 4 and needs 7. P3 arrives at 5 and needs 9. P4 arrives at 10 and needs 4. P5 arrives at 10 and needs 3. Calculate the average TAT and average WT. Show the Gantt chart.",
+  "algorithm": "FCFS",
+  "avg_tat": 12.4,
+  "avg_wt": 6.8
+ },
+ {
+  "question": "Consider the processes below scheduled with FCFS. Processes: P1 (AT 0, BT 8), P2 (AT 0, BT 6), P3 (AT 0, BT 6), P4 (AT 0, BT 10), P5 (AT 0, BT 2), P6 (AT 0, BT 4). Calculate the average TAT and average WT. Show the Gantt chart.",
+  "algorithm": "FCFS",
+  "avg_tat": 23.33,
+  "avg_wt": 17.33
+ },
+ {
+  "question": "Consider the processes below scheduled with first-come first-served scheduling.\n| Process | Arrival time | Burst time |\n|---|---|---|\n| P1 | 0 | 5 |\n| P2 | 0 | 10 |\n| P3 | 2 | 2 |\n| P4 | 2 | 2 |\n| P5 | 4 | 10 |\nDraw the Gantt chart and find the average waiting time and average turnaround time.",
+  "algorithm": "FCFS",
+  "avg_tat": 15.4,
+  "avg_wt": 9.6
+ },
+ {
+  "question": "Schedule with FCFS.\n| Process | Arrival time | Burst time |\n|---|---|---|\n| P1 | 0 | 10 |\n| P2 | 0 | 9 |\n| P3 | 0 | 2 |\nFind CT, TAT, WT and response time for every process, and the averages.",
+  "algorithm": "FCFS",
+  "avg_tat": 16.67,
+  "avg_wt": 9.67
+ },
+ {
+  "question": "Consider the processes below scheduled with first-come first-served scheduling.\n| Process | Arrival time | Burst time |\n|---|---|---|\n| P1 | 0 | 9 |\n| P2 | 0 | 5 |\n| P3 | 2 | 9 |\n| P4 | 5 | 7 |\n| P5 | 10 | 8 |\nFind the completion, turnaround and waiting time of each process, and the averages.",
+  "algorithm": "FCFS",
+  "avg_tat": 19.4,
+  "avg_wt": 11.8
+ },
+ {
+  "question": "Apply FCFS to the following processes. P1 arrives at 0 and needs 10. P2 arrives at 4 and needs 9. P3 arrives at 7 and needs 3. P4 arrives at 9 and needs 4. P5 arrives at 11 and needs 6. P6 arrives at 12 and needs 4. Draw the Gantt chart and find the average waiting time and average turnaround time.",
+  "algorithm": "FCFS",
+  "avg_tat": 17.0,
+  "avg_wt": 11.0
+ },
+ {
+  "question": "first-come first-served scheduling:\n| Process | Arrival time | Burst time |\n|---|---|---|\n| P1 | 0 | 6 |\n| P2 | 4 | 4 |\n| P3 | 6 | 10 |\n| P4 | 7 | 9 |\nCompute average waiting time, average turnaround time and average response time.",
+  "algorithm": "FCFS",
+  "avg_tat": 12.0,
+  "avg_wt": 4.75
+ },
+ {
+  "question": "Apply First Come First Served (FCFS) to the following processes.\n| Process | Arrival time | Burst time |\n|---|---|---|\n| P1 | 0 | 5 |\n| P2 | 0 | 3 |\n| P3 | 0 | 3 |\n| P4 | 0 | 7 |\n| P5 | 0 | 10 |\n| P6 | 0 | 5 |\nCalculate the average TAT and average WT. Show the Gantt chart.",
+  "algorithm": "FCFS",
+  "avg_tat": 17.17,
+  "avg_wt": 11.67
+ },
+ {
+  "question": "first-come first-served scheduling: Processes P1, P2, P3, P4, P5, P6. Arrival times: 0, 1, 3, 3, 4, 4. Burst times: 2, 1, 8, 1, 3, 1. Compute average waiting time, average turnaround time and average response time.",
+  "algorithm": "FCFS",
+  "avg_tat": 7.33,
+  "avg_wt": 4.67
+ },
+ {
+  "question": "Using FIFO scheduling, schedule these processes. Processes: P1 (AT 0, BT 2), P2 (AT 1, BT 4), P3 (AT 6, BT 7), P4 (AT 8, BT 9), P5 (AT 10, BT 10). Compute average waiting time, average turnaround time and average response time.",
+  "algorithm": "FCFS",
+  "avg_tat": 10.0,
+  "avg_wt": 3.6
+ },
+ {
+  "question": "Using FIFO scheduling, schedule these processes. Processes: P1 (AT 0, BT 3), P2 (AT 5, BT 1), P3 (AT 6, BT 10), P4 (AT 6, BT 8). Find the completion, turnaround and waiting time of each process, and the averages.",
+  "algorithm": "FCFS",
+  "avg_tat": 8.0,
+  "avg_wt": 2.5
+ },
+ {
+  "question": "Solve using First Come First Served (FCFS).\n| Process | Arrival time | Burst time |\n|---|---|---|\n| P1 | 0 | 8 |\n| P2 | 3 | 10 |\n| P3 | 3 | 3 |\n| P4 | 5 | 9 |\nSolve it step by step.",
+  "algorithm": "FCFS",
+  "avg_tat": 16.5,
+  "avg_wt": 9.0
+ },
+ {
+  "question": "Schedule with FCFS. Processes P1, P2, P3. Arrival times: 0, 0, 2. Burst times (ms): 8, 8, 4. Find the completion, turnaround and waiting time of each process, and the averages.",
+  "algorithm": "FCFS",
+  "avg_tat": 14.0,
+  "avg_wt": 7.33
+ },
+ {
+  "question": "Solve using FIFO scheduling.\n| Process | Arrival time | Burst time |\n|---|---|---|\n| P1 | 0 | 1 |\n| P2 | 4 | 3 |\n| P3 | 5 | 7 |\nSolve it step by step.",
+  "algorithm": "FCFS",
+  "avg_tat": 4.33,
+  "avg_wt": 0.67
+ },
+ {
+  "question": "Using FIFO scheduling, schedule these processes. Processes: P1 (AT 0, BT 3), P2 (AT 3, BT 10), P3 (AT 4, BT 5), P4 (AT 4, BT 5), P5 (AT 9, BT 7), P6 (AT 9, BT 8). Find the completion, turnaround and waiting time of each process, and the averages.",
+  "algorithm": "FCFS",
+  "avg_tat": 16.0,
+  "avg_wt": 9.67
+ },
+ {
+  "question": "Using FCFS, schedule these processes. P1 arrives at 0 and needs 3. P2 arrives at 0 and needs 9. P3 arrives at 0 and needs 9. Find CT, TAT, WT and response time for every process, and the averages.",
+  "algorithm": "FCFS",
+  "avg_tat": 12.0,
+  "avg_wt": 5.0
+ },
+ {
+  "question": "Consider the processes below scheduled with FIFO scheduling. P1 arrives at 2 and needs 8. P2 arrives at 3 and needs 6. P3 arrives at 5 and needs 1. P4 arrives at 5 and needs 2. Calculate the average TAT and average WT. Show the Gantt chart.",
+  "algorithm": "FCFS",
+  "avg_tat": 11.75,
+  "avg_wt": 7.5
+ },
+ {
+  "question": "Consider the processes below scheduled with first-come first-served scheduling. Processes P1, P2, P3. Arrival times: 0, 3, 5. Burst times: 4, 10, 8. Calculate the average TAT and average WT. Show the Gantt chart.",
+  "algorithm": "FCFS",
+  "avg_tat": 10.67,
+  "avg_wt": 3.33
+ },
+ {
+  "question": "Schedule with first-come first-served scheduling. Processes: P1 (AT 0, BT 8), P2 (AT 1, BT 8), P3 (AT 1, BT 2), P4 (AT 1, BT 9), P5 (AT 10, BT 4). Solve it step by step.",
+  "algorithm": "FCFS",
+  "avg_tat": 17.4,
+  "avg_wt": 11.2
+ },
+ {
+  "question": "Consider the processes below scheduled with first-come first-served scheduling. Processes P1, P2, P3, P4. Arrival times: 4, 4, 4, 6. Burst times: 2, 6, 9, 9. Calculate the average TAT and average WT. Show the Gantt chart.",
+  "algorithm": "FCFS",
+  "avg_tat": 12.75,
+  "avg_wt": 6.25
+ },
+ {
+  "question": "Schedule with FCFS.\n| Process | Arrival time | Burst time |\n|---|---|---|\n| P1 | 2 | 2 |\n| P2 | 2 | 6 |\n| P3 | 4 | 10 |\nFind CT, TAT, WT and response time for every process, and the averages.",
+  "algorithm": "FCFS",
+  "avg_tat": 8.67,
+  "avg_wt": 2.67
+ },
+ {
+  "question": "First Come First Served (FCFS): P1 arrives at 0 and needs 2. P2 arrives at 0 and needs 9. P3 arrives at 0 and needs 9. Find the completion, turnaround and waiting time of each process, and the averages.",
+  "algorithm": "FCFS",
+  "avg_tat": 11.0,
+  "avg_wt": 4.33
+ },
+ {
+  "question": "Apply first-come first-served scheduling to the following processes. P1 arrives at 0 ms and needs 7 ms. P2 arrives at 2 ms and needs 9 ms. P3 arrives at 6 ms and needs 1 ms. Find the completion, turnaround and waiting time of each process, and the averages.",
+  "algorithm": "FCFS",
+  "avg_tat": 10.67,
+  "avg_wt": 5.0
+ },
+ {
+  "question": "Schedule with FCFS. P1 arrives at 0 ms and needs 3 ms. P2 arrives at 2 ms and needs 9 ms. P3 arrives at 2 ms and needs 9 ms. P4 arrives at 4 ms and needs 7 ms. P5 arrives at 4 ms and needs 2 ms. Solve it step by step.",
+  "algorithm": "FCFS",
+  "avg_tat": 16.4,
+  "avg_wt": 10.4
+ },
+ {
+  "question": "Using FCFS, schedule these processes. P1 arrives at 2 ms and needs 7 ms. P2 arrives at 2 ms and needs 6 ms. P3 arrives at 2 ms and needs 6 ms. P4 arrives at 2 ms and needs 1 ms. Find the completion, turnaround and waiting time of each process, and the averages.",
+  "algorithm": "FCFS",
+  "avg_tat": 14.75,
+  "avg_wt": 9.75
+ },
+ {
+  "question": "FCFS:\n| Process | Arrival time | Burst time |\n|---|---|---|\n| P1 | 0 | 7 |\n| P2 | 6 | 2 |\n| P3 | 7 | 9 |\n| P4 | 7 | 10 |\nSolve it step by step.",
+  "algorithm": "FCFS",
+  "avg_tat": 10.5,
+  "avg_wt": 3.5
+ },
+ {
+  "question": "Using First Come First Served (FCFS), schedule these processes.\n| Process | Arrival time | Burst time |\n|---|---|---|\n| P1 | 0 | 2 |\n| P2 | 4 | 5 |\n| P3 | 6 | 9 |\nCalculate the average TAT and average WT. Show the Gantt chart.",
+  "algorithm": "FCFS",
+  "avg_tat": 6.33,
+  "avg_wt": 1.0
+ },
+ {
+  "question": "Apply first-come first-served scheduling to the following processes. Processes P1, P2, P3, P4. Arrival times: 0, 3, 5, 8. Burst times: 6, 5, 1, 7. Calculate the average TAT and average WT. Show the Gantt chart.",
+  "algorithm": "FCFS",
+  "avg_tat": 8.0,
+  "avg_wt": 3.25
+ },
+ {
+  "question": "Schedule with first-come first-served scheduling. P1 arrives at 0 ms and needs 9 ms. P2 arrives at 2 ms and needs 7 ms. P3 arrives at 2 ms and needs 9 ms. P4 arrives at 2 ms and needs 5 ms. P5 arrives at 4 ms and needs 1 ms. Compute average waiting time, average turnaround time and average response time.",
+  "algorithm": "FCFS",
+  "avg_tat": 20.2,
+  "avg_wt": 14.0
+ },
+ {
+  "question": "Using Shortest Job First (non-preemptive), schedule these processes. Processes: P1 (AT 0, BT 10), P2 (AT 2, BT 6), P3 (AT 4, BT 4), P4 (AT 4, BT 1). Find CT, TAT, WT and response time for every process, and the averages.",
+  "algorithm": "SJF",
+  "avg_tat": 11.75,
+  "avg_wt": 6.5
+ },
+ {
+  "question": "SJF: P1 arrives at 1 and needs 2. P2 arrives at 2 and needs 1. P3 arrives at 12 and needs 8. P4 arrives at 14 and needs 2. Compute average waiting time, average turnaround time and average response time.",
+  "algorithm": "SJF",
+  "avg_tat": 5.0,
+  "avg_wt": 1.75
+ },
+ {
+  "question": "Apply shortest job first scheduling to the following processes. Processes P1, P2, P3, P4, P5, P6. Arrival times: 0, 5, 7, 8, 8, 9. Burst times: 5, 2, 6, 8, 8, 4. Find CT, TAT, WT and response time for every process, and the averages.",
+  "algorithm": "SJF",
+  "avg_tat": 10.5,
+  "avg_wt": 5.0
+ },
+ {
+  "question": "Using shortest job first scheduling, schedule these processes. Processes: P1 (AT 0, BT 10), P2 (AT 1, BT 9), P3 (AT 2, BT 7), P4 (AT 3, BT 2), P5 (AT 12, BT 7), P6 (AT 14, BT 3). Solve it step by step.",
+  "algorithm": "SJF",
+  "avg_tat": 16.33,
+  "avg_wt": 10.0
+ },
+ {
+  "question": "non-preemptive SJF: Processes: P1 (AT 0, BT 2), P2 (AT 0, BT 2), P3 (AT 0, BT 4), P4 (AT 0, BT 3), P5 (AT 0, BT 7). Compute average waiting time, average turnaround time and average response time.",
+  "algorithm": "SJF",
+  "avg_tat": 8.4,
+  "avg_wt": 4.8
+ },
+ {
+  "question": "Schedule with non-preemptive SJF. Processes P1, P2, P3, P4, P5, P6. Arrival times: 0, 1, 2, 5, 5, 10. Burst times: 9, 2, 6, 8, 8, 6. Calculate the average TAT and average WT. Show the Gantt chart.",
+  "algorithm": "SJF",
+  "avg_tat": 17.83,
+  "avg_wt": 11.33
+ },
+ {
+  "question": "Using Shortest Job First (non-preemptive), schedule these processes.\n| Process | Arrival time | Burst time |\n|---|---|---|\n| P1 | 0 | 4 |\n| P2 | 3 | 4 |\n| P3 | 4 | 7 |\n| P4 | 4 | 10 |\n| P5 | 6 | 6 |\n| P6 | 12 | 4 |\nFind the completion, turnaround and waiting time of each process, and the averages.",
+  "algorithm": "SJF",
+  "avg_tat": 12.5,
+  "avg_wt": 6.67
+ },
+ {
+  "question": "non-preemptive SJF: Processes P1, P2, P3, P4, P5, P6. Arrival times: 0, 0, 0, 0, 0, 0. Burst times (ms): 2, 3, 8, 6, 9, 4. Draw the Gantt chart and find the average waiting time and average turnaround time.",
+  "algorithm": "SJF",
+  "avg_tat": 14.33,
+  "avg_wt": 9.0
+ },
+ {
+  "question": "shortest job first scheduling: Processes P1, P2, P3. Arrival times: 0, 3, 6. Burst times (ms): 10, 6, 7. Find CT, TAT, WT and response time for every process, and the averages.",
+  "algorithm": "SJF",
+  "avg_tat": 13.33,
+  "avg_wt": 5.67
+ },
+ {
+  "question": "Schedule with SJF. Processes P1, P2, P3, P4, P5, P6. Arrival times: 0, 7, 7, 8, 9, 10. Burst times (ms): 9, 1, 2, 9, 9, 2. Find the completion, turnaround and waiting time of each process, and the averages.",
+  "algorithm": "SJF",
+  "avg_tat": 9.83,
+  "avg_wt": 4.5
+ },
+ {
+  "question": "Apply SJF to the following processes. P1 arrives at 0 and needs 4. P2 arrives at 3 and needs 9. P3 arrives at 5 and needs 10. P4 arrives at 6 and needs 7. Compute average waiting time, average turnaround time and average response time.",
+  "algorithm": "SJF",
+  "avg_tat": 13.25,
+  "avg_wt": 5.75
+ },
+ {
+  "question": "Using shortest job first scheduling, schedule these processes. Processes P1, P2, P3. Arrival times: 0, 5, 6. Burst times: 4, 9, 10. Find CT, TAT, WT and response time for every process, and the averages.",
+  "algorithm": "SJF",
+  "avg_tat": 10.33,
+  "avg_wt": 2.67
+ },
+ {
+  "question": "Consider the processes below scheduled with non-preemptive SJF.\n| Process | Arrival time | Burst time |\n|---|---|---|\n| P1 | 0 | 10 |\n| P2 | 0 | 6 |\n| P3 | 0 | 5 |\n| P4 | 0 | 4 |\n| P5 | 0 | 2 |\nCompute average waiting time, average turnaround time and average response time.",
+  "algorithm": "SJF",
+  "avg_tat": 12.6,
+  "avg_wt": 7.2
+ },
+ {
+  "question": "Using SJF, schedule these processes. Processes P1, P2, P3, P4, P5, P6. Arrival times: 0, 3, 3, 9, 11, 11. Burst times: 7, 5, 3, 2, 10, 7. Solve it step by step.",
+  "algorithm": "SJF",
+  "avg_tat": 11.17,
+  "avg_wt": 5.5
+ },
+ {
+  "question": "Consider the processes below scheduled with shortest job first scheduling. Processes P1, P2, P3, P4. Arrival times: 0, 0, 4, 4. Burst times: 4, 3, 2, 10. Draw the Gantt chart and find the average waiting time and average turnaround time.",
+  "algorithm": "SJF",
+  "avg_tat": 7.5,
+  "avg_wt": 2.75
+ },
+ {
+  "question": "Apply Shortest Job First (non-preemptive) to the following processes. P1 arrives at 0 ms and needs 7 ms. P2 arrives at 7 ms and needs 6 ms. P3 arrives at 9 ms and needs 10 ms. P4 arrives at 11 ms and needs 3 ms. P5 arrives at 12 ms and needs 3 ms. P6 arrives at 12 ms and needs 8 ms. Find the completion, turnaround and waiting time of each process, and the averages.",
+  "algorithm": "SJF",
+  "avg_tat": 11.33,
+  "avg_wt": 5.17
+ },
+ {
+  "question": "Schedule with SJF. Processes P1, P2, P3. Arrival times: 0, 0, 2. Burst times: 5, 9, 1. Find CT, TAT, WT and response time for every process, and the averages.",
+  "algorithm": "SJF",
+  "avg_tat": 8.0,
+  "avg_wt": 3.0
+ },
+ {
+  "question": "Apply SJF to the following processes. Processes P1, P2, P3, P4, P5. Arrival times: 0, 4, 6, 7, 8. Burst times: 4, 9, 1, 4, 4. Compute average waiting time, average turnaround time and average response time.",
+  "algorithm": "SJF",
+  "avg_tat": 9.2,
+  "avg_wt": 4.8
+ },
+ {
+  "question": "Apply non-preemptive SJF to the following processes.\n| Process | Arrival time | Burst time |\n|---|---|---|\n| P1 | 0 | 9 |\n| P2 | 3 | 10 |\n| P3 | 4 | 4 |\n| P4 | 5 | 2 |\nFind the completion, turnaround and waiting time of each process, and the averages.",
+  "algorithm": "SJF",
+  "avg_tat": 12.0,
+  "avg_wt": 5.75
+ },
+ {
+  "question": "Consider the processes below scheduled with shortest job first scheduling. Processes P1, P2, P3. Arrival times: 0, 0, 0. Burst times (ms): 3, 9, 4. Find the completion, turnaround and waiting time of each process, and the averages.",
+  "algorithm": "SJF",
+  "avg_tat": 8.67,
+  "avg_wt": 3.33
+ },
+ {
+  "question": "Schedule with Shortest Job First (non-preemptive). Processes P1, P2, P3. Arrival times: 1, 2, 20. Burst times: 6, 6, 8. Draw the Gantt chart and find the average waiting time and average turnaround time.",
+  "algorithm": "SJF",
+  "avg_tat": 8.33,
+  "avg_wt": 1.67
+ },
+ {
+  "question": "Apply Shortest Job First (non-preemptive) to the following processes. P1 arrives at 0 ms and needs 5 ms. P2 arrives at 5 ms and needs 8 ms. P3 arrives at 6 ms and needs 9 ms. P4 arrives at 7 ms and needs 7 ms. P5 arrives at 8 ms and needs 6 ms. P6 arrives at 10 ms and needs 2 ms. Solve it step by step.",
+  "algorithm": "SJF",
+  "avg_tat": 13.83,
+  "avg_wt": 7.67
+ },
+ {
+  "question": "Using Shortest Job First (non-preemptive), schedule these processes. Processes: P1 (AT 0, BT 6), P2 (AT 0, BT 5), P3 (AT 0, BT 5). Calculate the average TAT and average WT. Show the Gantt chart.",
+  "algorithm": "SJF",
+  "avg_tat": 10.33,
+  "avg_wt": 5.0
+ },
+ {
+  "question": "Using SJF, schedule these processes. P1 arrives at 0 and needs 4. P2 arrives at 2 and needs 3. P3 arrives at 4 and needs 8. P4 arrives at 8 and needs 3. Find CT, TAT, WT and response time for every process, and the averages.",
+  "algorithm": "SJF",
+  "avg_tat": 7.5,
+  "avg_wt": 3.0
+ },
+ {
+  "question": "Shortest Job First (non-preemptive): Processes P1, P2, P3, P4, P5. Arrival times: 0, 2, 2, 4, 4. Burst times: 8, 3, 7, 8, 5. Calculate the average TAT and average WT. Show the Gantt chart.",
+  "algorithm": "SJF",
+  "avg_tat": 15.4,
+  "avg_wt": 9.2
+ },
+ {
+  "question": "Schedule with non-preemptive SJF. P1 arrives at 0 and needs 1. P2 arrives at 4 and needs 9. P3 arrives at 5 and needs 5. Calculate the average TAT and average WT. Show the Gantt chart.",
+  "algorithm": "SJF",
+  "avg_tat": 7.67,
+  "avg_wt": 2.67
+ },
+ {
+  "question": "Shortest Job First (non-preemptive):\n| Process | Arrival time | Burst time |\n|---|---|---|\n| P1 | 0 | 3 |\n| P2 | 1 | 6 |\n| P3 | 6 | 9 |\n| P4 | 8 | 1 |\nSolve it step by step.",
+  "algorithm": "SJF",
+  "avg_tat": 6.5,
+  "avg_wt": 1.75
+ },
+ {
+  "question": "Schedule with shortest job first scheduling.\n| Process | Arrival time | Burst time |\n|---|---|---|\n| P1 | 0 | 7 |\n| P2 | 2 | 4 |\n| P3 | 2 | 10 |\n| P4 | 4 | 7 |\n| P5 | 4 | 3 |\nFind the completion, turnaround and waiting time of each process, and the averages.",
+  "algorithm": "SJF",
+  "avg_tat": 14.2,
+  "avg_wt": 8.0
+ },
+ {
+  "question": "Consider the processes below scheduled with non-preemptive SJF.\n| Process | Arrival time | Burst time |\n|---|---|---|\n| P1 | 0 | 2 |\n| P2 | 0 | 10 |\n| P3 | 0 | 7 |\n| P4 | 0 | 6 |\n| P5 | 0 | 8 |\nDraw the Gantt chart and find the average waiting time and average turnaround time.",
+  "algorithm": "SJF",
+  "avg_tat": 16.2,
+  "avg_wt": 9.6
+ },
+ {
+  "question": "Consider the processes below scheduled with non-preemptive SJF. Processes: P1 (AT 0, BT 6), P2 (AT 2, BT 3), P3 (AT 2, BT 1). Compute average waiting time, average turnaround time and average response time.",
+  "algorithm": "SJF",
+  "avg_tat": 6.33,
+  "avg_wt": 3.0
+ },
+ {
+  "question": "Schedule with Shortest Remaining Time First (SRTF). P1 arrives at 2 and needs 5. P2 arrives at 2 and needs 1. P3 arrives at 3 and needs 8. P4 arrives at 3 and needs 9. Calculate the average TAT and average WT. Show the Gantt chart.",
+  "algorithm": "SRTF",
+  "avg_tat": 10.5,
+  "avg_wt": 4.75
+ },
+ {
+  "question": "Schedule with preemptive SJF. Processes P1, P2, P3, P4, P5, P6. Arrival times: 0, 0, 0, 0, 0, 0. Burst times: 3, 6, 3, 1, 4, 7. Find the completion, turnaround and waiting time of each process, and the averages.",
+  "algorithm": "SRTF",
+  "avg_tat": 10.67,
+  "avg_wt": 6.67
+ },
+ {
+  "question": "Solve using preemptive SJF. Processes: P1 (AT 0, BT 9), P2 (AT 0, BT 8), P3 (AT 2, BT 1), P4 (AT 2, BT 9), P5 (AT 2, BT 7). Calculate the average TAT and average WT. Show the Gantt chart.",
+  "algorithm": "SRTF",
+  "avg_tat": 16.2,
+  "avg_wt": 9.4
+ },
+ {
+  "question": "Shortest Remaining Time First (SRTF): P1 arrives at 0 and needs 6. P2 arrives at 1 and needs 4. P3 arrives at 4 and needs 7. P4 arrives at 8 and needs 8. P5 arrives at 9 and needs 4. Calculate the average TAT and average WT. Show the Gantt chart.",
+  "algorithm": "SRTF",
+  "avg_tat": 11.4,
+  "avg_wt": 5.6
+ },
+ {
+  "question": "Solve using preemptive SJF. Processes: P1 (AT 0, BT 3), P2 (AT 3, BT 9), P3 (AT 8, BT 6), P4 (AT 10, BT 6), P5 (AT 11, BT 1), P6 (AT 11, BT 7). Solve it step by step.",
+  "algorithm": "SRTF",
+  "avg_tat": 10.17,
+  "avg_wt": 4.83
+ },
+ {
+  "question": "Apply Shortest Remaining Time First (SRTF) to the following processes. Processes P1, P2, P3, P4, P5, P6. Arrival times: 0, 0, 0, 0, 0, 0. Burst times: 3, 7, 10, 7, 4, 3. Find CT, TAT, WT and response time for every process, and the averages.",
+  "algorithm": "SRTF",
+  "avg_tat": 15.67,
+  "avg_wt": 10.0
+ },
+ {
+  "question": "Solve using shortest remaining time first. Processes P1, P2, P3, P4, P5. Arrival times: 0, 4, 4, 6, 7. Burst times: 4, 1, 8, 4, 9. Solve it step by step.",
+  "algorithm": "SRTF",
+  "avg_tat": 8.2,
+  "avg_wt": 3.0
+ },
+ {
+  "question": "Apply preemptive SJF to the following processes. Processes P1, P2, P3. Arrival times: 0, 2, 6. Burst times: 1, 1, 10. Find the completion, turnaround and waiting time of each process, and the averages.",
+  "algorithm": "SRTF",
+  "avg_tat": 4.0,
+  "avg_wt": 0.0
+ },
+ {
+  "question": "Apply SRTF to the following processes. Processes P1, P2, P3, P4. Arrival times: 0, 0, 0, 0. Burst times: 6, 3, 1, 6. Compute average waiting time, average turnaround time and average response time.",
+  "algorithm": "SRTF",
+  "avg_tat": 7.75,
+  "avg_wt": 3.75
+ },
+ {
+  "question": "Apply shortest remaining time first to the following processes.\n| Process | Arrival time | Burst time |\n|---|---|---|\n| P1 | 0 | 1 |\n| P2 | 0 | 2 |\n| P3 | 0 | 7 |\n| P4 | 2 | 1 |\n| P5 | 4 | 4 |\n| P6 | 4 | 2 |\nCompute average waiting time, average turnaround time and average response time.",
+  "algorithm": "SRTF",
+  "avg_tat": 5.17,
+  "avg_wt": 2.33
+ },
+ {
+  "question": "Schedule with preemptive SJF. P1 arrives at 0 ms and needs 9 ms. P2 arrives at 7 ms and needs 5 ms. P3 arrives at 9 ms and needs 3 ms. P4 arrives at 10 ms and needs 10 ms. P5 arrives at 10 ms and needs 9 ms. Find CT, TAT, WT and response time for every process, and the averages.",
+  "algorithm": "SRTF",
+  "avg_tat": 12.8,
+  "avg_wt": 5.6
+ },
+ {
+  "question": "SRTF: P1 arrives at 0 ms and needs 9 ms. P2 arrives at 4 ms and needs 6 ms. P3 arrives at 8 ms and needs 6 ms. P4 arrives at 8 ms and needs 9 ms. P5 arrives at 10 ms and needs 4 ms. P6 arrives at 12 ms and needs 10 ms. Find CT, TAT, WT and response time for every process, and the averages.",
+  "algorithm": "SRTF",
+  "avg_tat": 17.17,
+  "avg_wt": 9.83
+ },
+ {
+  "question": "shortest remaining time first:\n| Process | Arrival time | Burst time |\n|---|---|---|\n| P1 | 0 | 2 |\n| P2 | 0 | 9 |\n| P3 | 0 | 6 |\n| P4 | 1 | 4 |\n| P5 | 3 | 9 |\n| P6 | 14 | 9 |\nCalculate the average TAT and average WT. Show the Gantt chart.",
+  "algorithm": "SRTF",
+  "avg_tat": 15.33,
+  "avg_wt": 8.83
+ },
+ {
+  "question": "shortest remaining time first:\n| Process | Arrival time | Burst time |\n|---|---|---|\n| P1 | 0 | 10 |\n| P2 | 0 | 10 |\n| P3 | 2 | 7 |\n| P4 | 2 | 10 |\n| P5 | 2 | 2 |\nCompute average waiting time, average turnaround time and average response time.",
+  "algorithm": "SRTF",
+  "avg_tat": 19.2,
+  "avg_wt": 11.4
+ },
+ {
+  "question": "Solve using Shortest Remaining Time First (SRTF). P1 arrives at 0 ms and needs 9 ms. P2 arrives at 0 ms and needs 1 ms. P3 arrives at 0 ms and needs 4 ms. P4 arrives at 2 ms and needs 5 ms. P5 arrives at 2 ms and needs 4 ms. Find the completion, turnaround and waiting time of each process, and the averages.",
+  "algorithm": "SRTF",
+  "avg_tat": 9.6,
+  "avg_wt": 5.0
+ },
+ {
+  "question": "Apply preemptive SJF to the following processes. P1 arrives at 3 and needs 3. P2 arrives at 3 and needs 1. P3 arrives at 3 and needs 3. P4 arrives at 14 and needs 2. P5 arrives at 14 and needs 2. P6 arrives at 20 and needs 9. Calculate the average TAT and average WT. Show the Gantt chart.",
+  "algorithm": "SRTF",
+  "avg_tat": 4.5,
+  "avg_wt": 1.17
+ },
+ {
+  "question": "Schedule with SRTF. P1 arrives at 0 and needs 6. P2 arrives at 0 and needs 1. P3 arrives at 0 and needs 6. P4 arrives at 0 and needs 9. Compute average waiting time, average turnaround time and average response time.",
+  "algorithm": "SRTF",
+  "avg_tat": 10.75,
+  "avg_wt": 5.25
+ },
+ {
+  "question": "Apply Shortest Remaining Time First (SRTF) to the following processes. P1 arrives at 0 ms and needs 10 ms. P2 arrives at 1 ms and needs 8 ms. P3 arrives at 6 ms and needs 3 ms. P4 arrives at 6 ms and needs 8 ms. Calculate the average TAT and average WT. Show the Gantt chart.",
+  "algorithm": "SRTF",
+  "avg_tat": 14.25,
+  "avg_wt": 7.0
+ },
+ {
+  "question": "Using preemptive SJF, schedule these processes.\n| Process | Arrival time | Burst time |\n|---|---|---|\n| P1 | 0 | 8 |\n| P2 | 0 | 8 |\n| P3 | 2 | 8 |\n| P4 | 2 | 5 |\nSolve it step by step.",
+  "algorithm": "SRTF",
+  "avg_tat": 16.5,
+  "avg_wt": 9.25
+ },
+ {
+  "question": "Using shortest remaining time first, schedule these processes. Processes: P1 (AT 2, BT 4), P2 (AT 2, BT 1), P3 (AT 14, BT 8), P4 (AT 14, BT 10), P5 (AT 20, BT 1). Find the completion, turnaround and waiting time of each process, and the averages.",
+  "algorithm": "SRTF",
+  "avg_tat": 7.0,
+  "avg_wt": 2.2
+ },
+ {
+  "question": "Shortest Remaining Time First (SRTF): P1 arrives at 0 ms and needs 3 ms. P2 arrives at 2 ms and needs 9 ms. P3 arrives at 6 ms and needs 10 ms. P4 arrives at 6 ms and needs 1 ms. P5 arrives at 9 ms and needs 4 ms. Compute average waiting time, average turnaround time and average response time.",
+  "algorithm": "SRTF",
+  "avg_tat": 8.8,
+  "avg_wt": 3.4
+ },
+ {
+  "question": "SRTF: Processes: P1 (AT 0, BT 2), P2 (AT 4, BT 2), P3 (AT 4, BT 8). Calculate the average TAT and average WT. Show the Gantt chart.",
+  "algorithm": "SRTF",
+  "avg_tat": 4.67,
+  "avg_wt": 0.67
+ },
+ {
+  "question": "Solve using Shortest Remaining Time First (SRTF).\n| Process | Arrival time | Burst time |\n|---|---|---|\n| P1 | 0 | 2 |\n| P2 | 0 | 2 |\n| P3 | 0 | 10 |\n| P4 | 2 | 3 |\n| P5 | 2 | 6 |\n| P6 | 4 | 3 |\nFind CT, TAT, WT and response time for every process, and the averages.",
+  "algorithm": "SRTF",
+  "avg_tat": 9.5,
+  "avg_wt": 5.17
+ },
+ {
+  "question": "shortest remaining time first: Processes: P1 (AT 0, BT 6), P2 (AT 4, BT 4), P3 (AT 5, BT 4). Calculate the average TAT and average WT. Show the Gantt chart.",
+  "algorithm": "SRTF",
+  "avg_tat": 7.0,
+  "avg_wt": 2.33
+ },
+ {
+  "question": "Shortest Remaining Time First (SRTF): Processes: P1 (AT 0, BT 3), P2 (AT 3, BT 3), P3 (AT 8, BT 1), P4 (AT 8, BT 6), P5 (AT 9, BT 9), P6 (AT 10, BT 10). Compute average waiting time, average turnaround time and average response time.",
+  "algorithm": "SRTF",
+  "avg_tat": 8.83,
+  "avg_wt": 3.5
+ },
+ {
+  "question": "Apply shortest remaining time first to the following processes.\n| Process | Arrival time | Burst time |\n|---|---|---|\n| P1 | 0 | 3 |\n| P2 | 5 | 5 |\n| P3 | 5 | 5 |\nFind CT, TAT, WT and response time for every process, and the averages.",
+  "algorithm": "SRTF",
+  "avg_tat": 6.0,
+  "avg_wt": 1.67
+ },
+ {
+  "question": "Consider the processes below scheduled with SRTF. Processes: P1 (AT 0, BT 10), P2 (AT 0, BT 10), P3 (AT 12, BT 5). Solve it step by step.",
+  "algorithm": "SRTF",
+  "avg_tat": 13.33,
+  "avg_wt": 5.0
+ },
+ {
+  "question": "Apply Shortest Remaining Time First (SRTF) to the following processes. Processes: P1 (AT 0, BT 1), P2 (AT 0, BT 2), P3 (AT 3, BT 5), P4 (AT 3, BT 7). Draw the Gantt chart and find the average waiting time and average turnaround time.",
+  "algorithm": "SRTF",
+  "avg_tat": 5.25,
+  "avg_wt": 1.5
+ },
+ {
+  "question": "shortest remaining time first: P1 arrives at 2 ms and needs 3 ms. P2 arrives at 12 ms and needs 4 ms. P3 arrives at 14 ms and needs 5 ms. Solve it step by step.",
+  "algorithm": "SRTF",
+  "avg_tat": 4.67,
+  "avg_wt": 0.67
+ },
+ {
+  "question": "Using preemptive SJF, schedule these processes. P1 arrives at 0 and needs 6. P2 arrives at 4 and needs 2. P3 arrives at 5 and needs 7. Solve it step by step.",
+  "algorithm": "SRTF",
+  "avg_tat": 6.67,
+  "avg_wt": 1.67
+ },
+ {
+  "question": "Using non-preemptive priority, schedule these processes. Processes P1, P2, P3, P4, P5, P6. Arrival times: 1, 2, 2, 12, 12, 14. Burst times: 8, 6, 3, 3, 5, 6. Priorities: 3, 1, 4, 3, 5, 1. A lower number means higher priority. Solve it step by step.",
+  "algorithm": "PRIORITY_NP",
+  "avg_tat": 14.17,
+  "avg_wt": 9.0
+ },
+ {
+  "question": "Consider the processes below scheduled with non-preemptive priority. Processes P1, P2, P3, P4, P5, P6. Arrival times: 0, 0, 0, 0, 0, 0. Burst times (ms): 2, 5, 5, 9, 6, 3. Priorities: 3, 5, 4, 5, 4, 4. Draw the Gantt chart and find the average waiting time and average turnaround time.",
+  "algorithm": "PRIORITY_NP",
+  "avg_tat": 14.83,
+  "avg_wt": 9.83
+ },
+ {
+  "question": "Schedule with non-preemptive priority scheduling. Processes: P1 (AT 2, BT 9, priority 2), P2 (AT 14, BT 10, priority 3), P3 (AT 20, BT 10, priority 4). A lower number means higher priority. Calculate the average TAT and average WT. Show the Gantt chart.",
+  "algorithm": "PRIORITY_NP",
+  "avg_tat": 11.0,
+  "avg_wt": 1.33
+ },
+ {
+  "question": "Apply non-preemptive priority scheduling to the following processes. P1 arrives at 0 ms and needs 10 ms with priority 4. P2 arrives at 0 ms and needs 7 ms with priority 2. P3 arrives at 0 ms and needs 3 ms with priority 4. Calculate the average TAT and average WT. Show the Gantt chart.",
+  "algorithm": "PRIORITY_NP",
+  "avg_tat": 14.67,
+  "avg_wt": 8.0
+ },
+ {
+  "question": "Using non-preemptive priority, schedule these processes.\n| Process | Arrival time | Burst time | Priority |\n|---|---|---|---|\n| P1 | 0 | 5 | 3 |\n| P2 | 0 | 2 | 5 |\n| P3 | 0 | 7 | 5 |\n| P4 | 0 | 8 | 1 |\n| P5 | 0 | 5 | 4 | A lower number means higher priority.\nCompute average waiting time, average turnaround time and average response time.",
+  "algorithm": "PRIORITY_NP",
+  "avg_tat": 17.2,
+  "avg_wt": 11.8
+ },
+ {
+  "question": "non-preemptive priority: Processes: P1 (AT 0, BT 10, priority 2), P2 (AT 5, BT 6, priority 1), P3 (AT 6, BT 2, priority 2), P4 (AT 7, BT 10, priority 3), P5 (AT 7, BT 1, priority 2), P6 (AT 9, BT 1, priority 5). Compute average waiting time, average turnaround time and average response time.",
+  "algorithm": "PRIORITY_NP",
+  "avg_tat": 14.67,
+  "avg_wt": 9.67
+ },
+ {
+  "question": "Solve using non-preemptive priority. Processes: P1 (AT 0, BT 6, priority 3), P2 (AT 3, BT 9, priority 5), P3 (AT 7, BT 2, priority 1), P4 (AT 7, BT 9, priority 4). A lower number means higher priority. Draw the Gantt chart and find the average waiting time and average turnaround time.",
+  "algorithm": "PRIORITY_NP",
+  "avg_tat": 11.75,
+  "avg_wt": 5.25
+ },
+ {
+  "question": "Using non-preemptive priority, schedule these processes. P1 arrives at 0 and needs 4 with priority 4. P2 arrives at 2 and needs 6 with priority 4. P3 arrives at 3 and needs 1 with priority 3. P4 arrives at 3 and needs 8 with priority 2. Find CT, TAT, WT and response time for every process, and the averages.",
+  "algorithm": "PRIORITY_NP",
+  "avg_tat": 10.0,
+  "avg_wt": 5.25
+ },
+ {
+  "question": "Schedule with priority scheduling (non-preemptive). P1 arrives at 0 ms and needs 2 ms with priority 1. P2 arrives at 0 ms and needs 1 ms with priority 4. P3 arrives at 0 ms and needs 7 ms with priority 1. Find the completion, turnaround and waiting time of each process, and the averages.",
+  "algorithm": "PRIORITY_NP",
+  "avg_tat": 7.0,
+  "avg_wt": 3.67
+ },
+ {
+  "question": "non-preemptive priority scheduling: Processes P1, P2, P3, P4. Arrival times: 0, 4, 6, 7. Burst times: 7, 9, 6, 3. Priorities: 2, 2, 1, 1. A lower number means higher priority. Find the completion, turnaround and waiting time of each process, and the averages.",
+  "algorithm": "PRIORITY_NP",
+  "avg_tat": 11.0,
+  "avg_wt": 4.75
+ },
+ {
+  "question": "non-preemptive priority:\n| Process | Arrival time | Burst time | Priority |\n|---|---|---|---|\n| P1 | 0 | 7 | 1 |\n| P2 | 0 | 10 | 1 |\n| P3 | 2 | 1 | 5 |\n| P4 | 4 | 2 | 4 |\n| P5 | 4 | 7 | 2 |\n| P6 | 4 | 8 | 5 |\nFind the completion, turnaround and waiting time of each process, and the averages.",
+  "algorithm": "PRIORITY_NP",
+  "avg_tat": 20.33,
+  "avg_wt": 14.5
+ },
+ {
+  "question": "Schedule with non-preemptive priority scheduling. P1 arrives at 3 and needs 5 with priority 1. P2 arrives at 6 and needs 7 with priority 3. P3 arrives at 7 and needs 3 with priority 5. P4 arrives at 7 and needs 10 with priority 2. P5 arrives at 12 and needs 8 with priority 3. P6 arrives at 12 and needs 7 with priority 3. A lower number means higher priority. Draw the Gantt chart and find the average waiting time and average turnaround time.",
+  "algorithm": "PRIORITY_NP",
+  "avg_tat": 20.0,
+  "avg_wt": 13.33
+ },
+ {
+  "question": "Apply non-preemptive priority to the following processes. Processes P1, P2, P3, P4, P5, P6. Arrival times: 0, 0, 0, 0, 0, 0. Burst times: 7, 5, 9, 6, 2, 8. Priorities: 3, 3, 5, 4, 4, 1. A lower number means higher priority. Find the completion, turnaround and waiting time of each process, and the averages.",
+  "algorithm": "PRIORITY_NP",
+  "avg_tat": 22.33,
+  "avg_wt": 16.17
+ },
+ {
+  "question": "Using non-preemptive priority scheduling, schedule these processes. Processes P1, P2, P3, P4, P5. Arrival times: 0, 0, 0, 0, 0. Burst times: 3, 5, 1, 5, 2. Priorities: 5, 2, 1, 3, 4. Find the completion, turnaround and waiting time of each process, and the averages.",
+  "algorithm": "PRIORITY_NP",
+  "avg_tat": 9.4,
+  "avg_wt": 6.2
+ },
+ {
+  "question": "Solve using priority scheduling (non-preemptive). P1 arrives at 0 and needs 3 with priority 2. P2 arrives at 2 and needs 9 with priority 3. P3 arrives at 3 and needs 9 with priority 1. P4 arrives at 4 and needs 10 with priority 5. P5 arrives at 7 and needs 10 with priority 3. P6 arrives at 9 and needs 9 with priority 1. A lower number means higher priority. Draw the Gantt chart and find the average waiting time and average turnaround time.",
+  "algorithm": "PRIORITY_NP",
+  "avg_tat": 21.83,
+  "avg_wt": 13.5
+ },
+ {
+  "question": "Consider the processes below scheduled with priority scheduling (non-preemptive). Processes: P1 (AT 0, BT 2, priority 3), P2 (AT 0, BT 2, priority 3), P3 (AT 0, BT 9, priority 3). A lower number means higher priority. Draw the Gantt chart and find the average waiting time and average turnaround time.",
+  "algorithm": "PRIORITY_NP",
+  "avg_tat": 6.33,
+  "avg_wt": 2.0
+ },
+ {
+  "question": "Schedule with priority scheduling (non-preemptive).\n| Process | Arrival time | Burst time | Priority |\n|---|---|---|---|\n| P1 | 0 | 8 | 2 |\n| P2 | 5 | 7 | 5 |\n| P3 | 7 | 6 | 5 |\n| P4 | 8 | 8 | 3 |\nFind the completion, turnaround and waiting time of each process, and the averages.",
+  "algorithm": "PRIORITY_NP",
+  "avg_tat": 14.0,
+  "avg_wt": 6.75
+ },
+ {
+  "question": "Solve using non-preemptive priority scheduling. Processes P1, P2, P3, P4, P5. Arrival times: 3, 3, 4, 4, 5. Burst times (ms): 1, 2, 8, 4, 4. Priorities: 3, 5, 5, 5, 4. Draw the Gantt chart and find the average waiting time and average turnaround time.",
+  "algorithm": "PRIORITY_NP",
+  "avg_tat": 8.2,
+  "avg_wt": 4.4
+ },
+ {
+  "question": "Schedule with non-preemptive priority scheduling.\n| Process | Arrival time | Burst time | Priority |\n|---|---|---|---|\n| P1 | 2 | 3 | 3 |\n| P2 | 3 | 2 | 3 |\n| P3 | 4 | 2 | 5 |\n| P4 | 6 | 3 | 1 |\n| P5 | 10 | 10 | 2 | A lower number means higher priority.\nCompute average waiting time, average turnaround time and average response time.",
+  "algorithm": "PRIORITY_NP",
+  "avg_tat": 7.8,
+  "avg_wt": 3.8
+ },
+ {
+  "question": "Consider the processes below scheduled with priority scheduling (non-preemptive).\n| Process | Arrival time | Burst time | Priority |\n|---|---|---|---|\n| P1 | 0 | 6 | 1 |\n| P2 | 1 | 3 | 3 |\n| P3 | 2 | 4 | 1 |\n| P4 | 5 | 9 | 5 |\nFind CT, TAT, WT and response time for every process, and the averages.",
+  "algorithm": "PRIORITY_NP",
+  "avg_tat": 10.75,
+  "avg_wt": 5.25
+ },
+ {
+  "question": "Using priority scheduling (non-preemptive), schedule these processes. Processes P1, P2, P3, P4. Arrival times: 0, 3, 6, 8. Burst times: 10, 5, 2, 4. Priorities: 2, 2, 1, 1. A lower number means higher priority. Solve it step by step.",
+  "algorithm": "PRIORITY_NP",
+  "avg_tat": 10.5,
+  "avg_wt": 5.25
+ },
+ {
+  "question": "Solve using non-preemptive priority. P1 arrives at 0 and needs 4 with priority 5. P2 arrives at 2 and needs 3 with priority 5. P3 arrives at 5 and needs 2 with priority 4. A lower number means higher priority. Calculate the average TAT and average WT. Show the Gantt chart.",
+  "algorithm": "PRIORITY_NP",
+  "avg_tat": 4.33,
+  "avg_wt": 1.33
+ },
+ {
+  "question": "Schedule with non-preemptive priority.\n| Process | Arrival time | Burst time | Priority |\n|---|---|---|---|\n| P1 | 0 | 1 | 5 |\n| P2 | 0 | 4 | 4 |\n| P3 | 0 | 5 | 1 |\n| P4 | 0 | 3 | 3 | A lower number means higher priority.\nDraw the Gantt chart and find the average waiting time and average turnaround time.",
+  "algorithm": "PRIORITY_NP",
+  "avg_tat": 9.5,
+  "avg_wt": 6.25
+ },
+ {
+  "question": "Using non-preemptive priority, schedule these processes. Processes: P1 (AT 0, BT 6, priority 4), P2 (AT 4, BT 2, priority 4), P3 (AT 5, BT 9, priority 1). A lower number means higher priority. Calculate the average TAT and average WT. Show the Gantt chart.",
+  "algorithm": "PRIORITY_NP",
+  "avg_tat": 9.67,
+  "avg_wt": 4.0
+ },
+ {
+  "question": "non-preemptive priority scheduling: Processes P1, P2, P3, P4, P5. Arrival times: 12, 12, 14, 20, 20. Burst times: 3, 7, 4, 9, 5. Priorities: 2, 3, 2, 3, 4. Draw the Gantt chart and find the average waiting time and average turnaround time.",
+  "algorithm": "PRIORITY_NP",
+  "avg_tat": 11.4,
+  "avg_wt": 5.8
+ },
+ {
+  "question": "Schedule with non-preemptive priority.\n| Process | Arrival time | Burst time | Priority |\n|---|---|---|---|\n| P1 | 0 | 7 | 5 |\n| P2 | 3 | 6 | 4 |\n| P3 | 5 | 3 | 3 |\n| P4 | 6 | 4 | 2 |\n| P5 | 9 | 2 | 5 |\nFind CT, TAT, WT and response time for every process, and the averages.",
+  "algorithm": "PRIORITY_NP",
+  "avg_tat": 10.2,
+  "avg_wt": 5.8
+ },
+ {
+  "question": "Apply non-preemptive priority scheduling to the following processes.\n| Process | Arrival time | Burst time | Priority |\n|---|---|---|---|\n| P1 | 0 | 10 | 4 |\n| P2 | 2 | 1 | 5 |\n| P3 | 14 | 5 | 5 |\n| P4 | 14 | 6 | 1 |\n| P5 | 14 | 5 | 1 |\nDraw the Gantt chart and find the average waiting time and average turnaround time.",
+  "algorithm": "PRIORITY_NP",
+  "avg_tat": 10.4,
+  "avg_wt": 5.0
+ },
+ {
+  "question": "Apply non-preemptive priority to the following processes. Processes P1, P2, P3, P4, P5. Arrival times: 0, 0, 2, 2, 4. Burst times: 7, 9, 10, 9, 1. Priorities: 2, 1, 4, 5, 3. A lower number means higher priority. Calculate the average TAT and average WT. Show the Gantt chart.",
+  "algorithm": "PRIORITY_NP",
+  "avg_tat": 19.4,
+  "avg_wt": 12.2
+ },
+ {
+  "question": "non-preemptive priority scheduling: Processes: P1 (AT 0, BT 1, priority 5), P2 (AT 2, BT 8, priority 2), P3 (AT 2, BT 5, priority 3). Find CT, TAT, WT and response time for every process, and the averages.",
+  "algorithm": "PRIORITY_NP",
+  "avg_tat": 7.33,
+  "avg_wt": 2.67
+ },
+ {
+  "question": "Using priority scheduling (non-preemptive), schedule these processes. Processes: P1 (AT 0, BT 2, priority 2), P2 (AT 3, BT 6, priority 2), P3 (AT 4, BT 5, priority 1). A lower number means higher priority. Draw the Gantt chart and find the average waiting time and average turnaround time.",
+  "algorithm": "PRIORITY_NP",
+  "avg_tat": 6.0,
+  "avg_wt": 1.67
+ },
+ {
+  "question": "Schedule with priority scheduling (preemptive). P1 arrives at 0 and needs 5 with priority 4. P2 arrives at 0 and needs 2 with priority 1. P3 arrives at 0 and needs 10 with priority 3. P4 arrives at 0 and needs 6 with priority 4. P5 arrives at 0 and needs 4 with priority 2. P6 arrives at 0 and needs 10 with priority 4. A lower number means higher priority. Calculate the average TAT and average WT. Show the Gantt chart.",
+  "algorithm": "PRIORITY_P",
+  "avg_tat": 18.17,
+  "avg_wt": 12.0
+ },
+ {
+  "question": "Solve using priority scheduling (preemptive).\n| Process | Arrival time | Burst time | Priority |\n|---|---|---|---|\n| P1 | 0 | 9 | 3 |\n| P2 | 3 | 3 | 5 |\n| P3 | 4 | 8 | 4 |\n| P4 | 8 | 9 | 5 | A lower number means higher priority.\nFind the completion, turnaround and waiting time of each process, and the averages.",
+  "algorithm": "PRIORITY_P",
+  "avg_tat": 15.0,
+  "avg_wt": 7.75
+ },
+ {
+  "question": "Consider the processes below scheduled with preemptive priority. P1 arrives at 0 and needs 3 with priority 5. P2 arrives at 3 and needs 6 with priority 4. P3 arrives at 7 and needs 3 with priority 3. P4 arrives at 8 and needs 9 with priority 3. A lower number means higher priority. Find CT, TAT, WT and response time for every process, and the averages.",
+  "algorithm": "PRIORITY_P",
+  "avg_tat": 8.75,
+  "avg_wt": 3.5
+ },
+ {
+  "question": "Schedule with preemptive priority scheduling. Processes P1, P2, P3, P4. Arrival times: 0, 2, 14, 14. Burst times: 10, 1, 7, 7. Priorities: 5, 2, 4, 4. A lower number means higher priority. Draw the Gantt chart and find the average waiting time and average turnaround time.",
+  "algorithm": "PRIORITY_P",
+  "avg_tat": 8.25,
+  "avg_wt": 2.0
+ },
+ {
+  "question": "Schedule with priority scheduling (preemptive). Processes: P1 (AT 0, BT 3, priority 1), P2 (AT 0, BT 10, priority 1), P3 (AT 2, BT 7, priority 4), P4 (AT 2, BT 3, priority 4), P5 (AT 4, BT 7, priority 1). Draw the Gantt chart and find the average waiting time and average turnaround time.",
+  "algorithm": "PRIORITY_P",
+  "avg_tat": 17.0,
+  "avg_wt": 11.0
+ },
+ {
+  "question": "Apply preemptive priority scheduling to the following processes. Processes: P1 (AT 0, BT 6, priority 3), P2 (AT 2, BT 3, priority 1), P3 (AT 4, BT 4, priority 3), P4 (AT 7, BT 7, priority 5), P5 (AT 9, BT 10, priority 2). A lower number means higher priority. Draw the Gantt chart and find the average waiting time and average turnaround time.",
+  "algorithm": "PRIORITY_P",
+  "avg_tat": 12.8,
+  "avg_wt": 6.8
+ },
+ {
+  "question": "Solve using priority scheduling (preemptive). Processes P1, P2, P3. Arrival times: 0, 0, 0. Burst times (ms): 10, 8, 8. Priorities: 2, 2, 1. Find the completion, turnaround and waiting time of each process, and the averages.",
+  "algorithm": "PRIORITY_P",
+  "avg_tat": 17.33,
+  "avg_wt": 8.67
+ },
+ {
+  "question": "Consider the processes below scheduled with priority scheduling (preemptive). P1 arrives at 0 ms and needs 6 ms with priority 4. P2 arrives at 1 ms and needs 10 ms with priority 5. P3 arrives at 12 ms and needs 9 ms with priority 1. P4 arrives at 14 ms and needs 1 ms with priority 2. A lower number means higher priority. Find CT, TAT, WT and response time for every process, and the averages.",
+  "algorithm": "PRIORITY_P",
+  "avg_tat": 12.0,
+  "avg_wt": 5.5
+ },
+ {
+  "question": "Consider the processes below scheduled with preemptive priority. Processes: P1 (AT 0, BT 1, priority 3), P2 (AT 3, BT 2, priority 5), P3 (AT 5, BT 1, priority 3), P4 (AT 6, BT 6, priority 1), P5 (AT 8, BT 7, priority 3). Find CT, TAT, WT and response time for every process, and the averages.",
+  "algorithm": "PRIORITY_P",
+  "avg_tat": 4.2,
+  "avg_wt": 0.8
+ },
+ {
+  "question": "Using priority scheduling (preemptive), schedule these processes. Processes: P1 (AT 0, BT 2, priority 4), P2 (AT 0, BT 8, priority 1), P3 (AT 2, BT 1, priority 2), P4 (AT 4, BT 5, priority 5). Solve it step by step.",
+  "algorithm": "PRIORITY_P",
+  "avg_tat": 9.5,
+  "avg_wt": 5.5
+ },
+ {
+  "question": "Apply preemptive priority scheduling to the following processes.\n| Process | Arrival time | Burst time | Priority |\n|---|---|---|---|\n| P1 | 0 | 5 | 2 |\n| P2 | 3 | 4 | 5 |\n| P3 | 6 | 5 | 3 |\n| P4 | 7 | 2 | 3 | A lower number means higher priority.\nCompute average waiting time, average turnaround time and average response time.",
+  "algorithm": "PRIORITY_P",
+  "avg_tat": 7.25,
+  "avg_wt": 3.25
+ },
+ {
+  "question": "Consider the processes below scheduled with priority scheduling (preemptive). Processes P1, P2, P3, P4. Arrival times: 0, 0, 0, 0. Burst times: 4, 4, 9, 5. Priorities: 1, 2, 4, 1. Draw the Gantt chart and find the average waiting time and average turnaround time.",
+  "algorithm": "PRIORITY_P",
+  "avg_tat": 12.0,
+  "avg_wt": 6.5
+ },
+ {
+  "question": "priority scheduling (preemptive): Processes P1, P2, P3, P4. Arrival times: 0, 0, 0, 0. Burst times: 3, 4, 10, 10. Priorities: 1, 2, 1, 1. A lower number means higher priority. Calculate the average TAT and average WT. Show the Gantt chart.",
+  "algorithm": "PRIORITY_P",
+  "avg_tat": 16.5,
+  "avg_wt": 9.75
+ },
+ {
+  "question": "Consider the processes below scheduled with priority scheduling (preemptive). Processes: P1 (AT 5, BT 6, priority 2), P2 (AT 6, BT 8, priority 1), P3 (AT 8, BT 4, priority 5), P4 (AT 8, BT 3, priority 1), P5 (AT 10, BT 2, priority 5), P6 (AT 12, BT 10, priority 2). Draw the Gantt chart and find the average waiting time and average turnaround time.",
+  "algorithm": "PRIORITY_P",
+  "avg_tat": 18.33,
+  "avg_wt": 12.83
+ },
+ {
+  "question": "Using preemptive priority, schedule these processes. Processes: P1 (AT 1, BT 10, priority 2), P2 (AT 1, BT 7, priority 1), P3 (AT 20, BT 3, priority 3). A lower number means higher priority. Compute average waiting time, average turnaround time and average response time.",
+  "algorithm": "PRIORITY_P",
+  "avg_tat": 9.0,
+  "avg_wt": 2.33
+ },
+ {
+  "question": "Consider the processes below scheduled with preemptive priority scheduling. Processes P1, P2, P3. Arrival times: 0, 2, 5. Burst times: 7, 2, 6. Priorities: 1, 1, 4. A lower number means higher priority. Compute average waiting time, average turnaround time and average response time.",
+  "algorithm": "PRIORITY_P",
+  "avg_tat": 8.0,
+  "avg_wt": 3.0
+ },
+ {
+  "question": "Apply preemptive priority to the following processes. Processes P1, P2, P3, P4, P5. Arrival times: 0, 0, 2, 2, 4. Burst times: 9, 5, 7, 5, 10. Priorities: 4, 2, 3, 4, 5. A lower number means higher priority. Draw the Gantt chart and find the average waiting time and average turnaround time.",
+  "algorithm": "PRIORITY_P",
+  "avg_tat": 18.4,
+  "avg_wt": 11.2
+ },
+ {
+  "question": "preemptive priority scheduling: Processes P1, P2, P3, P4, P5, P6. Arrival times: 0, 0, 0, 0, 0, 0. Burst times: 3, 9, 2, 2, 3, 7. Priorities: 4, 1, 2, 3, 2, 5. Find the completion, turnaround and waiting time of each process, and the averages.",
+  "algorithm": "PRIORITY_P",
+  "avg_tat": 15.83,
+  "avg_wt": 11.5
+ },
+ {
+  "question": "Schedule with preemptive priority scheduling. Processes: P1 (AT 3, BT 8, priority 3), P2 (AT 4, BT 9, priority 3), P3 (AT 5, BT 5, priority 4), P4 (AT 6, BT 2, priority 1), P5 (AT 8, BT 5, priority 1). A lower number means higher priority. Compute average waiting time, average turnaround time and average response time.",
+  "algorithm": "PRIORITY_P",
+  "avg_tat": 14.4,
+  "avg_wt": 8.6
+ },
+ {
+  "question": "Using preemptive priority, schedule these processes.\n| Process | Arrival time | Burst time | Priority |\n|---|---|---|---|\n| P1 | 0 | 9 | 5 |\n| P2 | 0 | 5 | 4 |\n| P3 | 0 | 10 | 5 |\n| P4 | 0 | 3 | 5 |\n| P5 | 0 | 9 | 5 |\n| P6 | 0 | 9 | 5 | A lower number means higher priority.\nCalculate the average TAT and average WT. Show the Gantt chart.",
+  "algorithm": "PRIORITY_P",
+  "avg_tat": 25.17,
+  "avg_wt": 17.67
+ },
+ {
+  "question": "Consider the processes below scheduled with preemptive priority. Processes: P1 (AT 2, BT 9, priority 2), P2 (AT 2, BT 7, priority 3), P3 (AT 2, BT 7, priority 2), P4 (AT 2, BT 1, priority 3). A lower number means higher priority. Compute average waiting time, average turnaround time and average response time.",
+  "algorithm": "PRIORITY_P",
+  "avg_tat": 18.0,
+  "avg_wt": 12.0
+ },
+ {
+  "question": "Solve using preemptive priority scheduling. Processes: P1 (AT 0, BT 3, priority 1), P2 (AT 0, BT 9, priority 3), P3 (AT 0, BT 6, priority 2), P4 (AT 0, BT 7, priority 5). Solve it step by step.",
+  "algorithm": "PRIORITY_P",
+  "avg_tat": 13.75,
+  "avg_wt": 7.5
+ },
+ {
+  "question": "Apply priority scheduling (preemptive) to the following processes. Processes: P1 (AT 0, BT 9, priority 2), P2 (AT 0, BT 7, priority 5), P3 (AT 2, BT 5, priority 5), P4 (AT 2, BT 1, priority 4), P5 (AT 2, BT 2, priority 1), P6 (AT 2, BT 8, priority 1). A lower number means higher priority. Calculate the average TAT and average WT. Show the Gantt chart.",
+  "algorithm": "PRIORITY_P",
+  "avg_tat": 17.67,
+  "avg_wt": 12.33
+ },
+ {
+  "question": "Solve using preemptive priority scheduling. Processes P1, P2, P3, P4. Arrival times: 0, 8, 8, 8. Burst times: 3, 7, 3, 4. Priorities: 2, 1, 3, 5. A lower number means higher priority. Find the completion, turnaround and waiting time of each process, and the averages.",
+  "algorithm": "PRIORITY_P",
+  "avg_tat": 8.5,
+  "avg_wt": 4.25
+ },
+ {
+  "question": "Solve using priority scheduling (preemptive). Processes: P1 (AT 3, BT 1, priority 3), P2 (AT 4, BT 1, priority 5), P3 (AT 5, BT 4, priority 3). Find the completion, turnaround and waiting time of each process, and the averages.",
+  "algorithm": "PRIORITY_P",
+  "avg_tat": 2.0,
+  "avg_wt": 0.0
+ },
+ {
+  "question": "preemptive priority:\n| Process | Arrival time | Burst time | Priority |\n|---|---|---|---|\n| P1 | 0 | 8 | 1 |\n| P2 | 0 | 1 | 4 |\n| P3 | 0 | 2 | 4 |\n| P4 | 0 | 8 | 5 |\n| P5 | 0 | 1 | 1 | A lower number means higher priority.\nSolve it step by step.",
+  "algorithm": "PRIORITY_P",
+  "avg_tat": 11.8,
+  "avg_wt": 7.8
+ },
+ {
+  "question": "Using priority scheduling (preemptive), schedule these processes. Processes: P1 (AT 0, BT 1, priority 1), P2 (AT 4, BT 3, priority 2), P3 (AT 4, BT 1, priority 3). Find CT, TAT, WT and response time for every process, and the averages.",
+  "algorithm": "PRIORITY_P",
+  "avg_tat": 2.67,
+  "avg_wt": 1.0
+ },
+ {
+  "question": "Schedule with preemptive priority. Processes P1, P2, P3. Arrival times: 2, 3, 5. Burst times (ms): 1, 7, 10. Priorities: 1, 2, 1. Find the completion, turnaround and waiting time of each process, and the averages.",
+  "algorithm": "PRIORITY_P",
+  "avg_tat": 9.33,
+  "avg_wt": 3.33
+ },
+ {
+  "question": "Using priority scheduling (preemptive), schedule these processes. P1 arrives at 0 and needs 1 with priority 2. P2 arrives at 3 and needs 2 with priority 5. P3 arrives at 3 and needs 2 with priority 1. P4 arrives at 3 and needs 1 with priority 3. P5 arrives at 7 and needs 7 with priority 3. Solve it step by step.",
+  "algorithm": "PRIORITY_P",
+  "avg_tat": 5.0,
+  "avg_wt": 2.4
+ },
+ {
+  "question": "Schedule with preemptive priority. Processes: P1 (AT 0, BT 4, priority 5), P2 (AT 4, BT 5, priority 2), P3 (AT 4, BT 4, priority 1). Draw the Gantt chart and find the average waiting time and average turnaround time.",
+  "algorithm": "PRIORITY_P",
+  "avg_tat": 5.67,
+  "avg_wt": 1.33
+ },
+ {
+  "question": "Schedule with round robin with a time slice of 3. P1 arrives at 0 ms and needs 10 ms. P2 arrives at 0 ms and needs 4 ms. P3 arrives at 0 ms and needs 2 ms. P4 arrives at 0 ms and needs 9 ms. P5 arrives at 0 ms and needs 7 ms. Solve it step by step.",
+  "algorithm": "RR",
+  "avg_tat": 23.8,
+  "avg_wt": 17.4
+ },
+ {
+  "question": "Consider the processes below scheduled with RR (q = 2). P1 arrives at 1 ms and needs 5 ms. P2 arrives at 1 ms and needs 9 ms. P3 arrives at 20 ms and needs 6 ms. Calculate the average TAT and average WT. Show the Gantt chart.",
+  "algorithm": "RR",
+  "avg_tat": 9.67,
+  "avg_wt": 3.0
+ },
+ {
+  "question": "Round Robin with time quantum 3: P1 arrives at 0 and needs 10. P2 arrives at 1 and needs 9. P3 arrives at 3 and needs 1. P4 arrives at 4 and needs 5. P5 arrives at 5 and needs 6. P6 arrives at 11 and needs 7. Draw the Gantt chart and find the average waiting time and average turnaround time.",
+  "algorithm": "RR",
+  "avg_tat": 24.17,
+  "avg_wt": 17.83
+ },
+ {
+  "question": "round robin with a time slice of 3: Processes: P1 (AT 0, BT 3), P2 (AT 5, BT 1), P3 (AT 5, BT 8), P4 (AT 6, BT 2), P5 (AT 10, BT 5). Calculate the average TAT and average WT. Show the Gantt chart.",
+  "algorithm": "RR",
+  "avg_tat": 6.8,
+  "avg_wt": 3.0
+ },
+ {
+  "question": "Schedule with RR (q = 1). Processes P1, P2, P3, P4, P5, P6. Arrival times: 0, 0, 0, 0, 0, 0. Burst times: 4, 4, 5, 3, 8, 4. Solve it step by step.",
+  "algorithm": "RR",
+  "avg_tat": 21.67,
+  "avg_wt": 17.0
+ },
+ {
+  "question": "Apply Round Robin with time quantum 4 to the following processes. Processes: P1 (AT 0, BT 5), P2 (AT 0, BT 8), P3 (AT 2, BT 3), P4 (AT 2, BT 9). Find the completion, turnaround and waiting time of each process, and the averages.",
+  "algorithm": "RR",
+  "avg_tat": 17.0,
+  "avg_wt": 10.75
+ },
+ {
+  "question": "Apply Round Robin scheduling, quantum = 5 to the following processes. Processes P1, P2, P3, P4, P5, P6. Arrival times: 0, 0, 1, 3, 8, 11. Burst times: 9, 2, 7, 4, 3, 4. Draw the Gantt chart and find the average waiting time and average turnaround time.",
+  "algorithm": "RR",
+  "avg_tat": 16.5,
+  "avg_wt": 11.67
+ },
+ {
+  "question": "Apply Round Robin with time quantum 3 to the following processes. P1 arrives at 0 and needs 3. P2 arrives at 6 and needs 7. P3 arrives at 7 and needs 4. P4 arrives at 8 and needs 2. Solve it step by step.",
+  "algorithm": "RR",
+  "avg_tat": 8.25,
+  "avg_wt": 4.25
+ },
+ {
+  "question": "Using Round Robin scheduling, quantum = 4, schedule these processes. Processes P1, P2, P3, P4, P5, P6. Arrival times: 0, 8, 10, 12, 12, 12. Burst times: 7, 5, 9, 3, 4, 4. Compute average waiting time, average turnaround time and average response time.",
+  "algorithm": "RR",
+  "avg_tat": 13.83,
+  "avg_wt": 8.5
+ },
+ {
+  "question": "Round Robin with time quantum 5: Processes P1, P2, P3. Arrival times: 0, 2, 3. Burst times: 3, 7, 8. Calculate the average TAT and average WT. Show the Gantt chart.",
+  "algorithm": "RR",
+  "avg_tat": 10.33,
+  "avg_wt": 4.33
+ },
+ {
+  "question": "Schedule with Round Robin with time quantum 5.\n| Process | Arrival time | Burst time |\n|---|---|---|\n| P1 | 0 | 1 |\n| P2 | 4 | 10 |\n| P3 | 5 | 4 |\n| P4 | 7 | 1 |\nFind CT, TAT, WT and response time for every process, and the averages.",
+  "algorithm": "RR",
+  "avg_tat": 7.75,
+  "avg_wt": 3.75
+ },
+ {
+  "question": "RR (q = 2): Processes: P1 (AT 0, BT 7), P2 (AT 2, BT 2), P3 (AT 3, BT 5), P4 (AT 3, BT 3), P5 (AT 6, BT 2). Draw the Gantt chart and find the average waiting time and average turnaround time.",
+  "algorithm": "RR",
+  "avg_tat": 11.2,
+  "avg_wt": 7.4
+ },
+ {
+  "question": "Consider the processes below scheduled with RR (q = 4). P1 arrives at 0 and needs 8. P2 arrives at 4 and needs 6. P3 arrives at 4 and needs 9. Calculate the average TAT and average WT. Show the Gantt chart.",
+  "algorithm": "RR",
+  "avg_tat": 16.33,
+  "avg_wt": 8.67
+ },
+ {
+  "question": "Using Round Robin with time quantum 3, schedule these processes.\n| Process | Arrival time | Burst time |\n|---|---|---|\n| P1 | 0 | 5 |\n| P2 | 0 | 9 |\n| P3 | 2 | 9 |\nCalculate the average TAT and average WT. Show the Gantt chart.",
+  "algorithm": "RR",
+  "avg_tat": 17.33,
+  "avg_wt": 9.67
+ },
+ {
+  "question": "round robin with a time slice of 5: Processes: P1 (AT 0, BT 5), P2 (AT 0, BT 2), P3 (AT 0, BT 5), P4 (AT 0, BT 7). Calculate the average TAT and average WT. Show the Gantt chart.",
+  "algorithm": "RR",
+  "avg_tat": 10.75,
+  "avg_wt": 6.0
+ },
+ {
+  "question": "Round Robin scheduling, quantum = 2: P1 arrives at 0 and needs 3. P2 arrives at 0 and needs 8. P3 arrives at 0 and needs 1. P4 arrives at 4 and needs 1. P5 arrives at 4 and needs 5. P6 arrives at 4 and needs 1. Find CT, TAT, WT and response time for every process, and the averages.",
+  "algorithm": "RR",
+  "avg_tat": 8.67,
+  "avg_wt": 5.5
+ },
+ {
+  "question": "round robin with a time slice of 5:\n| Process | Arrival time | Burst time |\n|---|---|---|\n| P1 | 0 | 8 |\n| P2 | 3 | 2 |\n| P3 | 8 | 9 |\n| P4 | 10 | 9 |\n| P5 | 10 | 7 |\nCompute average waiting time, average turnaround time and average response time.",
+  "algorithm": "RR",
+  "avg_tat": 16.6,
+  "avg_wt": 9.6
+ },
+ {
+  "question": "Apply RR (q = 3) to the following processes. Processes P1, P2, P3. Arrival times: 0, 0, 0. Burst times: 3, 6, 6. Compute average waiting time, average turnaround time and average response time.",
+  "algorithm": "RR",
+  "avg_tat": 10.0,
+  "avg_wt": 5.0
+ },
+ {
+  "question": "Round Robin scheduling, quantum = 4: Processes: P1 (AT 0, BT 6), P2 (AT 3, BT 4), P3 (AT 8, BT 5), P4 (AT 8, BT 7), P5 (AT 10, BT 10). Draw the Gantt chart and find the average waiting time and average turnaround time.",
+  "algorithm": "RR",
+  "avg_tat": 14.0,
+  "avg_wt": 7.6
+ },
+ {
+  "question": "Using RR (q = 1), schedule these processes.\n| Process | Arrival time | Burst time |\n|---|---|---|\n| P1 | 0 | 4 |\n| P2 | 0 | 8 |\n| P3 | 0 | 4 |\n| P4 | 0 | 10 |\n| P5 | 0 | 8 |\n| P6 | 0 | 6 |\nCalculate the average TAT and average WT. Show the Gantt chart.",
+  "algorithm": "RR",
+  "avg_tat": 31.0,
+  "avg_wt": 24.33
+ },
+ {
+  "question": "Schedule with RR (q = 2). Processes: P1 (AT 0, BT 6), P2 (AT 4, BT 10), P3 (AT 4, BT 5). Draw the Gantt chart and find the average waiting time and average turnaround time.",
+  "algorithm": "RR",
+  "avg_tat": 13.33,
+  "avg_wt": 6.33
+ },
+ {
+  "question": "Consider the processes below scheduled with Round Robin with time quantum 5. Processes P1, P2, P3, P4, P5. Arrival times: 0, 0, 0, 0, 2. Burst times (ms): 3, 6, 4, 7, 1. Find the completion, turnaround and waiting time of each process, and the averages.",
+  "algorithm": "RR",
+  "avg_tat": 14.2,
+  "avg_wt": 10.0
+ },
+ {
+  "question": "Round Robin with time quantum 4: Processes: P1 (AT 0, BT 8), P2 (AT 0, BT 7), P3 (AT 0, BT 1), P4 (AT 0, BT 5). Find CT, TAT, WT and response time for every process, and the averages.",
+  "algorithm": "RR",
+  "avg_tat": 16.75,
+  "avg_wt": 11.5
+ },
+ {
+  "question": "Apply round robin with a time slice of 4 to the following processes.\n| Process | Arrival time | Burst time |\n|---|---|---|\n| P1 | 0 | 1 |\n| P2 | 5 | 5 |\n| P3 | 7 | 10 |\n| P4 | 8 | 6 |\nCompute average waiting time, average turnaround time and average response time.",
+  "algorithm": "RR",
+  "avg_tat": 12.25,
+  "avg_wt": 6.75
+ },
+ {
+  "question": "Consider the processes below scheduled with Round Robin scheduling, quantum = 4. Processes P1, P2, P3, P4. Arrival times: 0, 1, 1, 14. Burst times: 3, 9, 4, 9. Find CT, TAT, WT and response time for every process, and the averages.",
+  "algorithm": "RR",
+  "avg_tat": 10.75,
+  "avg_wt": 4.5
+ },
+ {
+  "question": "Apply Round Robin scheduling, quantum = 2 to the following processes.\n| Process | Arrival time | Burst time |\n|---|---|---|\n| P1 | 0 | 5 |\n| P2 | 0 | 2 |\n| P3 | 0 | 7 |\nDraw the Gantt chart and find the average waiting time and average turnaround time.",
+  "algorithm": "RR",
+  "avg_tat": 9.67,
+  "avg_wt": 5.0
+ },
+ {
+  "question": "Consider the processes below scheduled with RR (q = 4). Processes P1, P2, P3, P4, P5. Arrival times: 2, 2, 2, 3, 14. Burst times: 1, 9, 5, 3, 4. Find CT, TAT, WT and response time for every process, and the averages.",
+  "algorithm": "RR",
+  "avg_tat": 12.0,
+  "avg_wt": 7.6
+ },
+ {
+  "question": "Apply Round Robin with time quantum 3 to the following processes. Processes: P1 (AT 1, BT 1), P2 (AT 3, BT 5), P3 (AT 3, BT 6). Compute average waiting time, average turnaround time and average response time.",
+  "algorithm": "RR",
+  "avg_tat": 6.67,
+  "avg_wt": 2.67
+ },
+ {
+  "question": "Schedule with round robin with a time slice of 1. Processes: P1 (AT 0, BT 9), P2 (AT 12, BT 8), P3 (AT 12, BT 10), P4 (AT 20, BT 6). Solve it step by step.",
+  "algorithm": "RR",
+  "avg_tat": 16.5,
+  "avg_wt": 8.25
+ },
+ {
+  "question": "Apply Round Robin with time quantum 1 to the following processes. Processes: P1 (AT 0, BT 2), P2 (AT 2, BT 9), P3 (AT 14, BT 7), P4 (AT 20, BT 4), P5 (AT 20, BT 5). Find CT, TAT, WT and response time for every process, and the averages.",
+  "algorithm": "RR",
+  "avg_tat": 7.6,
+  "avg_wt": 2.2
+ }
+]

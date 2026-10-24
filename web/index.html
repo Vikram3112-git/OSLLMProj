@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OSLLM</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='2' y='11' width='11' height='10' rx='2' fill='%230d7468'/%3E%3Crect x='14' y='11' width='5' height='10' rx='2' fill='%23e39b12'/%3E%3Crect x='20' y='11' width='10' height='10' rx='2' fill='%23142033'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;600&family=Schibsted+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<div class="shell">
+  <aside class="rail" id="rail">
+    <a class="brand" href="#chat" aria-label="OSLLM home">
+      <span class="brand-strip" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span>
+      <span class="brand-name">OSLLM</span>
+    </a>
+    <p class="brand-sub">Operating systems tutor, BCSE303L</p>
+    <nav class="nav" aria-label="Sections">
+      <a href="#chat" data-page="chat"><span>Chat</span></a>
+      <a href="#learn" data-page="learn"><span>Learn</span></a>
+      <a href="#practice" data-page="practice"><span>Practice</span></a>
+      <a href="#progress" data-page="progress"><span>Progress</span></a>
+      <a href="#files" data-page="files"><span>My files</span></a>
+    </nav>
+
+    <section class="chats" aria-label="Saved chats">
+      <div class="chats-head">
+        <h2>Chats</h2>
+        <button type="button" class="new-chat" id="new-chat">New chat</button>
+      </div>
+      <ul class="chat-list" id="chat-list"></ul>
+    </section>
+
+    <div class="rail-foot">
+          <div class="status" id="status"><span class="dot"></span><span>Connecting…</span></div>
+      <button class="link-btn" id="kb-btn" type="button">Knowledge sources</button>
+    </div>
+  </aside>
+
+  <main class="main">
+    <!-- CHAT -->
+    <section class="page" id="page-chat">
+      <div class="thread" id="thread">
+        <div class="hello" id="hello">
+          <h1 id="hello-title">Operating Systems AI Tutor</h1>
+          <p>Ask questions, solve problems step by step, build a study plan, or practise for your viva. Choose a task to get started.</p>
+          <div class="syllabus" id="syllabus" role="tablist" aria-label="Course units"></div>
+          <div class="unit-pane" id="unit-pane"></div>
+        </div>
+      </div>
+      <form class="composer" id="composer" autocomplete="off">
+        <div class="composer-top">
+          <div class="adaptive-label" title="Automatically adapts explanations to the question, course context, and writing tone">
+            <span class="adaptive-dot"></span><span>Adaptive tutor</span>
+          </div>
+          <div class="quiz-wrap">
+            <button type="button" class="quiz-btn" id="quiz-btn" aria-expanded="false" aria-controls="quiz-menu">Quiz me</button>
+            <div class="quiz-menu" id="quiz-menu" hidden>
+              <label class="quiz-topic">Topic<select id="quiz-topic" aria-label="Quiz topic"></select></label>
+              <div class="quiz-kinds" id="quiz-kinds"></div>
+            </div>
+          </div>
+          <div class="reading" id="reading" aria-live="polite"><span class="pulse"></span><span class="reading-text">Ready to help</span></div>
+        </div>
+        <div class="composer-box">
+          <textarea id="input" rows="1" placeholder="Ask anything about Operating Systems…" aria-label="Message"></textarea>
+          <button class="send" id="send" type="submit" aria-label="Send">
+            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M4 12h13M12 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+        </div>
+        <div class="composer-foot"><span>Enter to send, Shift+Enter for a new line. Chats are saved in this browser.</span></div>
+      </form>
+    </section>
+
+    <!-- LEARN -->
+    <section class="page" id="page-learn" hidden>
+      <header class="page-head">
+        <h1>Learn</h1>
+        <p>Pick a topic from any unit. Lessons start from intuition and end with a question to check yourself.</p>
+      </header>
+      <div class="learn-grid">
+        <div class="topic-list" id="topic-list"></div>
+        <div class="learn-pane">
+          <div class="learn-controls">
+            <div class="field">
+              <span class="field-label">Level</span>
+              <div class="seg" id="level" role="radiogroup" aria-label="Level">
+                <button type="button" data-v="easy">Beginner</button>
+                <button type="button" data-v="medium" aria-checked="true">Standard</button>
+                <button type="button" data-v="hard">Advanced</button>
+              </div>
+            </div>
+            <div class="learn-actions">
+              <button class="btn primary" id="learn-explain" type="button">Explain this topic</button>
+              <button class="btn" id="learn-example" type="button">Show a worked example</button>
+            </div>
+          </div>
+          <article class="sheet" id="learn-out"><p class="empty">Choose a topic, then pick how you want to learn it.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRACTICE -->
+    <section class="page" id="page-practice" hidden>
+      <header class="page-head">
+        <h1>Practice</h1>
+        <p>Recommendations are optional: choose any topic, question type and difficulty at any time. Hints come one at a time; each hint reduces the score by 15%.</p>
+      </header>
+      <div class="practice-bar">
+        <button class="btn primary" id="pick-for-me" type="button">Pick for me</button>
+        <span class="or">or</span>
+        <select id="p-topic" aria-label="Topic"></select>
+        <select id="p-kind" aria-label="Question type"></select>
+        <select id="p-diff" aria-label="Difficulty">
+          <option value="auto">Difficulty: auto</option><option value="easy">Easy</option>
+          <option value="medium">Medium</option><option value="hard">Hard</option>
+        </select>
+        <button class="btn" id="p-new" type="button">New question</button>
+      </div>
+      <article class="sheet" id="practice-out"><p class="empty">Your question will appear here.</p></article>
+    </section>
+
+    <!-- PROGRESS -->
+    <section class="page" id="page-progress" hidden>
+      <header class="page-head">
+        <h1>Progress</h1>
+        <p>A topic counts as mastered at 80% after at least three attempts.</p>
+      </header>
+      <div id="progress-out"></div>
+    </section>
+
+    <!-- FILES -->
+    <section class="page" id="page-files" hidden>
+      <header class="page-head">
+        <h1>My files</h1>
+        <p>Add your own lecture slides, notes or question papers. They are indexed on this computer, and "Teach me" answers can cite them next to the course notes.</p>
+      </header>
+      <label class="drop" id="drop">
+        <input type="file" id="file-input" accept=".pdf,.md,.txt" multiple>
+        <strong>Choose files or drop them here</strong>
+        <span>PDF, Markdown or text, up to 40 MB each</span>
+      </label>
+      <div class="index-state" id="index-state" aria-live="polite"></div>
+      <div id="files-out"></div>
+      <div class="actions"><button class="btn" id="reindex" type="button">Rebuild the whole index</button></div>
+    </section>
+  </main>
+</div>
+
+
+<dialog class="modal wide" id="kb-modal">
+  <div class="modal-head"><h2>Knowledge sources</h2><button class="link-btn" type="button" data-close>Close</button></div>
+  <p id="kb-summary"></p>
+  <div id="kb-list"></div>
+</dialog>
+
+<script src="/static/app.js?v=20261024-practice2"></script>
+</body>
+</html>

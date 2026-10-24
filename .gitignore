@@ -1,0 +1,18 @@
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+*.log
+*.gguf
+*.safetensors
+*.pt
+*.pth
+
+# Python virtual environments
+venv/
+.venv/
+__pycache__/
+*.py[cod]

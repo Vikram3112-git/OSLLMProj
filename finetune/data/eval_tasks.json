@@ -1,0 +1,402 @@
+[
+ {
+  "question": "Resource types A, B, C; Available (2, 3, 4)\nP0: Allocation (0, 2, 6)  Max (3, 7, 6)\nP1: Allocation (6, 0, 0)  Max (8, 6, 1)\nP2: Allocation (0, 7, 4)  Max (4, 8, 7)\nP3: Allocation (3, 3, 1)  Max (5, 3, 9)\nP4: Allocation (7, 6, 4)  Max (7, 7, 8)\n\nCheck whether this state is safe using the Banker's algorithm.",
+  "algorithm": "BANKERS",
+  "safe": true
+ },
+ {
+  "question": "Check whether this state is safe using the Banker's algorithm.\n\nResource types A, B, C; Available (3, 3, 3)\nP0: Allocation (3, 2, 2)  Max (9, 4, 7)\nP1: Allocation (0, 2, 2)  Max (1, 8, 5)\nP2: Allocation (5, 6, 1)  Max (9, 9, 2)\nP3: Allocation (1, 7, 0)  Max (1, 8, 1)\nP4: Allocation (0, 1, 5)  Max (2, 1, 5)",
+  "algorithm": "BANKERS",
+  "safe": true
+ },
+ {
+  "question": "Apply the Banker's algorithm and find the Need matrix and a safe sequence.\n\nResource types A, B, C; Available (4, 4, 1)\nP0: Allocation (2, 2, 3)  Max (4, 3, 6)\nP1: Allocation (1, 2, 0)  Max (5, 2, 7)\nP2: Allocation (1, 8, 6)  Max (1, 9, 7)\nP3: Allocation (1, 1, 0)  Max (3, 4, 3)\nP4: Allocation (2, 3, 3)  Max (4, 4, 4)",
+  "algorithm": "BANKERS",
+  "safe": true
+ },
+ {
+  "question": "Resource types A, B, C; Available (2, 3, 2)\nP0: Allocation (0, 0, 2)  Max (4, 1, 2)\nP1: Allocation (3, 3, 5)  Max (3, 7, 7)\nP2: Allocation (2, 2, 0)  Max (2, 3, 1)\nP3: Allocation (0, 0, 0)  Max (7, 3, 1)\nP4: Allocation (6, 1, 1)  Max (6, 5, 7)\n\nIs the system in a safe state? If yes, find a safe sequence.",
+  "algorithm": "BANKERS",
+  "safe": true
+ },
+ {
+  "question": "Is the system in a safe state? If yes, find a safe sequence.\n\nResource types A, B, C; Available (2, 1, 3)\nP0: Allocation (3, 5, 0)  Max (3, 6, 6)\nP1: Allocation (2, 7, 9)  Max (7, 8, 9)\nP2: Allocation (0, 5, 0)  Max (2, 7, 3)\nP3: Allocation (1, 4, 6)  Max (1, 5, 6)\nP4: Allocation (3, 1, 5)  Max (6, 4, 8)",
+  "algorithm": "BANKERS",
+  "safe": true
+ },
+ {
+  "question": "Resource types A, B, C; Available (4, 1, 3)\nP0: Allocation (9, 4, 3)  Max (9, 9, 5)\nP1: Allocation (2, 1, 2)  Max (9, 2, 5)\nP2: Allocation (4, 3, 0)  Max (6, 5, 2)\nP3: Allocation (5, 2, 4)  Max (8, 9, 5)\nP4: Allocation (7, 0, 1)  Max (8, 4, 3)\n\nIs the system in a safe state? If yes, find a safe sequence.",
+  "algorithm": "BANKERS",
+  "safe": false
+ },
+ {
+  "question": "Apply the Banker's algorithm and find the Need matrix and a safe sequence.\n\nResource types A, B, C; Available (3, 4, 4)\nP0: Allocation (1, 7, 2)  Max (1, 7, 4)\nP1: Allocation (0, 3, 1)  Max (1, 4, 8)\nP2: Allocation (5, 7, 5)  Max (6, 8, 9)\nP3: Allocation (3, 3, 1)  Max (4, 5, 1)\nP4: Allocation (1, 1, 1)  Max (5, 2, 6)",
+  "algorithm": "BANKERS",
+  "safe": true
+ },
+ {
+  "question": "Is the system in a safe state? If yes, find a safe sequence.\n\nResource types A, B, C; Available (4, 3, 3)\nP0: Allocation (0, 2, 0)  Max (3, 4, 6)\nP1: Allocation (9, 3, 1)  Max (9, 9, 4)\nP2: Allocation (3, 3, 2)  Max (4, 3, 2)\nP3: Allocation (1, 5, 1)  Max (5, 5, 3)\nP4: Allocation (0, 3, 2)  Max (1, 8, 2)",
+  "algorithm": "BANKERS",
+  "safe": true
+ },
+ {
+  "question": "Reference string: 2 0 2 3 1 3 4 0 1 2 4 1\nNumber of frames: 3\n\nUsing FIFO page replacement, find the page faults and the hit ratio.",
+  "algorithm": "FIFO",
+  "faults": 8
+ },
+ {
+  "question": "Find the number of page faults using FIFO page replacement.\n\nReference string: 4 5 7 3 5 1 5 6 3 7 0 3\nNumber of frames: 3",
+  "algorithm": "FIFO",
+  "faults": 10
+ },
+ {
+  "question": "Using FIFO page replacement, find the page faults and the hit ratio.\n\nReference string: 6 1 6 0 5 4 6 0 7 6 5 2 1 6 5\nNumber of frames: 4",
+  "algorithm": "FIFO",
+  "faults": 10
+ },
+ {
+  "question": "Using FIFO page replacement, find the page faults and the hit ratio.\n\nReference string: 0 1 3 1 4 2 1 2 5 2 5 0 2 3 0 4\nNumber of frames: 3",
+  "algorithm": "FIFO",
+  "faults": 11
+ },
+ {
+  "question": "Reference string: 1 3 4 1 3 5 4 1 0 3 4 5 6 3 1\nNumber of frames: 3\n\nHow many page faults occur with FIFO page replacement? Show the frames after every reference.",
+  "algorithm": "FIFO",
+  "faults": 12
+ },
+ {
+  "question": "Using FIFO page replacement, find the page faults and the hit ratio.\n\nReference string: 2 6 3 2 7 6 1 7 3 1 5 3 6\nNumber of frames: 3",
+  "algorithm": "FIFO",
+  "faults": 8
+ },
+ {
+  "question": "Reference string: 6 1 7 6 4 6 4 5 2 7 5 1 3 0 2\nNumber of frames: 3\n\nUsing FIFO page replacement, find the page faults and the hit ratio.",
+  "algorithm": "FIFO",
+  "faults": 12
+ },
+ {
+  "question": "How many page faults occur with FIFO page replacement? Show the frames after every reference.\n\nReference string: 3 6 4 1 6 3 4 2 6 1 5 0 5 6 5\nNumber of frames: 3",
+  "algorithm": "FIFO",
+  "faults": 11
+ },
+ {
+  "question": "Reference string: 3 1 0 4 0 5 2 1 2 1 2 4 2 4 5\nNumber of frames: 4\n\nFind the number of page faults using LRU page replacement.",
+  "algorithm": "LRU",
+  "faults": 8
+ },
+ {
+  "question": "Reference string: 4 2 7 1 7 6 1 4 3 4 6 0\nNumber of frames: 3\n\nHow many page faults occur with LRU page replacement? Show the frames after every reference.",
+  "algorithm": "LRU",
+  "faults": 9
+ },
+ {
+  "question": "Using LRU page replacement, find the page faults and the hit ratio.\n\nReference string: 4 6 4 0 3 5 0 6 7 6 5 4 3 5\nNumber of frames: 4",
+  "algorithm": "LRU",
+  "faults": 9
+ },
+ {
+  "question": "How many page faults occur with LRU page replacement? Show the frames after every reference.\n\nReference string: 2 5 1 5 6 4 5 0 1 6 1 0 4 3 5 0\nNumber of frames: 3",
+  "algorithm": "LRU",
+  "faults": 12
+ },
+ {
+  "question": "Reference string: 6 2 4 5 1 0 2 4 0 6 0 6 5\nNumber of frames: 3\n\nHow many page faults occur with LRU page replacement? Show the frames after every reference.",
+  "algorithm": "LRU",
+  "faults": 10
+ },
+ {
+  "question": "Reference string: 5 4 0 1 5 0 5 4 1 0 4 3 0 3\nNumber of frames: 3\n\nHow many page faults occur with LRU page replacement? Show the frames after every reference.",
+  "algorithm": "LRU",
+  "faults": 9
+ },
+ {
+  "question": "Using LRU page replacement, find the page faults and the hit ratio.\n\nReference string: 0 5 2 1 4 5 3 1 5 1 4 3 4\nNumber of frames: 3",
+  "algorithm": "LRU",
+  "faults": 10
+ },
+ {
+  "question": "Reference string: 7 5 0 3 5 0 2 0 3 5 3 2 4 3 1\nNumber of frames: 3\n\nFind the number of page faults using LRU page replacement.",
+  "algorithm": "LRU",
+  "faults": 10
+ },
+ {
+  "question": "Using Optimal (OPT) page replacement, find the page faults and the hit ratio.\n\nReference string: 5 4 0 3 4 1 5 2 1 2 3 2 1 3 1\nNumber of frames: 4",
+  "algorithm": "OPT",
+  "faults": 6
+ },
+ {
+  "question": "Reference string: 6 2 3 5 0 4 0 3 0 5 6 3 1 2 1 5\nNumber of frames: 3\n\nFind the number of page faults using Optimal (OPT) page replacement.",
+  "algorithm": "OPT",
+  "faults": 10
+ },
+ {
+  "question": "Reference string: 4 5 3 5 0 2 4 2 1 5 3 5 4 1 0\nNumber of frames: 4\n\nUsing Optimal (OPT) page replacement, find the page faults and the hit ratio.",
+  "algorithm": "OPT",
+  "faults": 7
+ },
+ {
+  "question": "Reference string: 5 1 6 3 0 5 0 3 2 6 5 0 4 2 1\nNumber of frames: 3\n\nFind the number of page faults using Optimal (OPT) page replacement.",
+  "algorithm": "OPT",
+  "faults": 10
+ },
+ {
+  "question": "Reference string: 6 0 6 2 6 4 6 1 3 4 6 5 0\nNumber of frames: 3\n\nHow many page faults occur with Optimal (OPT) page replacement? Show the frames after every reference.",
+  "algorithm": "OPT",
+  "faults": 8
+ },
+ {
+  "question": "How many page faults occur with Optimal (OPT) page replacement? Show the frames after every reference.\n\nReference string: 0 2 0 4 6 3 6 0 2 3 1 2 0\nNumber of frames: 3",
+  "algorithm": "OPT",
+  "faults": 7
+ },
+ {
+  "question": "Reference string: 0 5 2 5 2 3 7 6 7 4 7 0 7 6 5\nNumber of frames: 3\n\nFind the number of page faults using Optimal (OPT) page replacement.",
+  "algorithm": "OPT",
+  "faults": 9
+ },
+ {
+  "question": "Using Optimal (OPT) page replacement, find the page faults and the hit ratio.\n\nReference string: 4 0 5 4 0 2 5 0 4 5 1 0 3 5\nNumber of frames: 3",
+  "algorithm": "OPT",
+  "faults": 7
+ },
+ {
+  "question": "Request queue: 116, 39, 141, 102, 144, 46, 82\nHead starts at 91; cylinders 0 to 199\n\nFind the total head movement using FCFS.",
+  "algorithm": "D_FCFS",
+  "total": 419
+ },
+ {
+  "question": "Request queue: 20, 145, 9, 160, 166, 67, 135\nHead starts at 148; cylinders 0 to 199\n\nCalculate the total seek distance for FCFS.",
+  "algorithm": "D_FCFS",
+  "total": 713
+ },
+ {
+  "question": "Request queue: 84, 193, 11, 85, 29, 47, 165\nHead starts at 109; cylinders 0 to 199\n\nCalculate the total seek distance for FCFS.",
+  "algorithm": "D_FCFS",
+  "total": 582
+ },
+ {
+  "question": "Request queue: 40, 87, 164, 77, 80, 147, 60, 184\nHead starts at 121; cylinders 0 to 199\n\nCalculate the total seek distance for FCFS.",
+  "algorithm": "D_FCFS",
+  "total": 573
+ },
+ {
+  "question": "Request queue: 143, 188, 109, 55, 92, 49, 111\nHead starts at 96; cylinders 0 to 199\n\nFind the total head movement using FCFS.",
+  "algorithm": "D_FCFS",
+  "total": 367
+ },
+ {
+  "question": "Request queue: 90, 50, 40, 168, 140, 173, 169\nHead starts at 118; cylinders 0 to 199\n\nCalculate the total seek distance for FCFS.",
+  "algorithm": "D_FCFS",
+  "total": 271
+ },
+ {
+  "question": "Find the total head movement using FCFS.\n\nRequest queue: 175, 108, 87, 100, 136, 24, 118, 40\nHead starts at 99; cylinders 0 to 199",
+  "algorithm": "D_FCFS",
+  "total": 497
+ },
+ {
+  "question": "Using FCFS, give the order in which requests are served and the total head movement.\n\nRequest queue: 35, 85, 41, 166, 164, 152, 153, 52\nHead starts at 55; cylinders 0 to 199",
+  "algorithm": "D_FCFS",
+  "total": 355
+ },
+ {
+  "question": "Using SSTF disk scheduling, give the order in which requests are served and the total head movement.\n\nRequest queue: 157, 81, 45, 182, 54, 34, 59, 17\nHead starts at 138; cylinders 0 to 199",
+  "algorithm": "SSTF",
+  "total": 209
+ },
+ {
+  "question": "Calculate the total seek distance for SSTF disk scheduling.\n\nRequest queue: 10, 21, 68, 40, 176, 84, 49, 98\nHead starts at 90; cylinders 0 to 199",
+  "algorithm": "SSTF",
+  "total": 274
+ },
+ {
+  "question": "Request queue: 192, 142, 78, 156, 188, 16, 184\nHead starts at 118; cylinders 0 to 199\n\nCalculate the total seek distance for SSTF disk scheduling.",
+  "algorithm": "SSTF",
+  "total": 250
+ },
+ {
+  "question": "Request queue: 136, 55, 133, 87, 33, 22, 15\nHead starts at 70; cylinders 0 to 199\n\nUsing SSTF disk scheduling, give the order in which requests are served and the total head movement.",
+  "algorithm": "SSTF",
+  "total": 176
+ },
+ {
+  "question": "Calculate the total seek distance for SSTF disk scheduling.\n\nRequest queue: 103, 124, 30, 135, 7, 53, 33\nHead starts at 113; cylinders 0 to 199",
+  "algorithm": "SSTF",
+  "total": 170
+ },
+ {
+  "question": "Request queue: 122, 30, 68, 180, 138, 62, 99\nHead starts at 73; cylinders 0 to 199\n\nFind the total head movement using SSTF disk scheduling.",
+  "algorithm": "SSTF",
+  "total": 193
+ },
+ {
+  "question": "Find the total head movement using SSTF disk scheduling.\n\nRequest queue: 107, 27, 158, 61, 8, 6, 87\nHead starts at 89; cylinders 0 to 199",
+  "algorithm": "SSTF",
+  "total": 275
+ },
+ {
+  "question": "Find the total head movement using SSTF disk scheduling.\n\nRequest queue: 193, 112, 135, 19, 125, 155, 9\nHead starts at 123; cylinders 0 to 199",
+  "algorithm": "SSTF",
+  "total": 254
+ },
+ {
+  "question": "Request queue: 63, 120, 180, 12, 136, 184, 30, 126\nHead starts at 54; cylinders 0 to 199; head moving towards larger cylinder numbers\n\nFind the total head movement using SCAN (elevator) disk scheduling.",
+  "algorithm": "SCAN",
+  "total": 332
+ },
+ {
+  "question": "Request queue: 163, 98, 71, 169, 50, 38, 43\nHead starts at 124; cylinders 0 to 199; head moving towards larger cylinder numbers\n\nFind the total head movement using SCAN (elevator) disk scheduling.",
+  "algorithm": "SCAN",
+  "total": 236
+ },
+ {
+  "question": "Request queue: 139, 83, 148, 59, 118, 57, 167\nHead starts at 91; cylinders 0 to 199; head moving towards larger cylinder numbers\n\nUsing SCAN (elevator) disk scheduling, give the order in which requests are served and the total head movement.",
+  "algorithm": "SCAN",
+  "total": 250
+ },
+ {
+  "question": "Calculate the total seek distance for SCAN (elevator) disk scheduling.\n\nRequest queue: 175, 17, 113, 164, 88, 169, 121, 25\nHead starts at 99; cylinders 0 to 199; head moving towards larger cylinder numbers",
+  "algorithm": "SCAN",
+  "total": 282
+ },
+ {
+  "question": "Request queue: 22, 11, 143, 68, 105, 100, 47\nHead starts at 93; cylinders 0 to 199; head moving towards larger cylinder numbers\n\nCalculate the total seek distance for SCAN (elevator) disk scheduling.",
+  "algorithm": "SCAN",
+  "total": 294
+ },
+ {
+  "question": "Calculate the total seek distance for SCAN (elevator) disk scheduling.\n\nRequest queue: 64, 125, 109, 116, 65, 147, 56\nHead starts at 113; cylinders 0 to 199; head moving towards larger cylinder numbers",
+  "algorithm": "SCAN",
+  "total": 229
+ },
+ {
+  "question": "Find the total head movement using SCAN (elevator) disk scheduling.\n\nRequest queue: 54, 158, 174, 91, 153, 44, 100\nHead starts at 61; cylinders 0 to 199; head moving towards larger cylinder numbers",
+  "algorithm": "SCAN",
+  "total": 293
+ },
+ {
+  "question": "Using SCAN (elevator) disk scheduling, give the order in which requests are served and the total head movement.\n\nRequest queue: 53, 54, 149, 107, 10, 192, 43, 128\nHead starts at 132; cylinders 0 to 199; head moving towards smaller cylinder numbers",
+  "algorithm": "SCAN",
+  "total": 324
+ },
+ {
+  "question": "Request queue: 7, 191, 158, 141, 66, 156, 47, 154\nHead starts at 125; cylinders 0 to 199; head moving towards larger cylinder numbers\n\nUsing C-SCAN disk scheduling, give the order in which requests are served and the total head movement.",
+  "algorithm": "C-SCAN",
+  "total": 339
+ },
+ {
+  "question": "Request queue: 6, 188, 16, 103, 72, 37, 10, 119\nHead starts at 51; cylinders 0 to 199; head moving towards larger cylinder numbers\n\nUsing C-SCAN disk scheduling, give the order in which requests are served and the total head movement.",
+  "algorithm": "C-SCAN",
+  "total": 384
+ },
+ {
+  "question": "Request queue: 40, 180, 85, 193, 164, 101, 70, 117\nHead starts at 75; cylinders 0 to 199; head moving towards smaller cylinder numbers\n\nCalculate the total seek distance for C-SCAN disk scheduling.",
+  "algorithm": "C-SCAN",
+  "total": 388
+ },
+ {
+  "question": "Calculate the total seek distance for C-SCAN disk scheduling.\n\nRequest queue: 127, 37, 44, 125, 86, 95, 129\nHead starts at 81; cylinders 0 to 199; head moving towards smaller cylinder numbers",
+  "algorithm": "C-SCAN",
+  "total": 393
+ },
+ {
+  "question": "Calculate the total seek distance for C-SCAN disk scheduling.\n\nRequest queue: 50, 99, 124, 77, 169, 178, 25, 106\nHead starts at 133; cylinders 0 to 199; head moving towards smaller cylinder numbers",
+  "algorithm": "C-SCAN",
+  "total": 362
+ },
+ {
+  "question": "Calculate the total seek distance for C-SCAN disk scheduling.\n\nRequest queue: 172, 188, 125, 166, 177, 59, 103\nHead starts at 104; cylinders 0 to 199; head moving towards larger cylinder numbers",
+  "algorithm": "C-SCAN",
+  "total": 397
+ },
+ {
+  "question": "Request queue: 186, 187, 53, 37, 89, 151, 22\nHead starts at 82; cylinders 0 to 199; head moving towards larger cylinder numbers\n\nCalculate the total seek distance for C-SCAN disk scheduling.",
+  "algorithm": "C-SCAN",
+  "total": 369
+ },
+ {
+  "question": "Request queue: 136, 75, 42, 123, 149, 184, 193, 162\nHead starts at 101; cylinders 0 to 199; head moving towards larger cylinder numbers\n\nFind the total head movement using C-SCAN disk scheduling.",
+  "algorithm": "C-SCAN",
+  "total": 372
+ },
+ {
+  "question": "Request queue: 61, 81, 11, 12, 124, 46, 116\nHead starts at 44; cylinders 0 to 199; head moving towards larger cylinder numbers\n\nFind the total head movement using LOOK disk scheduling.",
+  "algorithm": "LOOK",
+  "total": 193
+ },
+ {
+  "question": "Request queue: 91, 83, 89, 175, 139, 68, 180, 51\nHead starts at 121; cylinders 0 to 199; head moving towards smaller cylinder numbers\n\nUsing LOOK disk scheduling, give the order in which requests are served and the total head movement.",
+  "algorithm": "LOOK",
+  "total": 199
+ },
+ {
+  "question": "Using LOOK disk scheduling, give the order in which requests are served and the total head movement.\n\nRequest queue: 148, 40, 37, 127, 16, 126, 95, 183\nHead starts at 89; cylinders 0 to 199; head moving towards larger cylinder numbers",
+  "algorithm": "LOOK",
+  "total": 261
+ },
+ {
+  "question": "Request queue: 170, 82, 84, 146, 98, 27, 6, 30\nHead starts at 45; cylinders 0 to 199; head moving towards larger cylinder numbers\n\nUsing LOOK disk scheduling, give the order in which requests are served and the total head movement.",
+  "algorithm": "LOOK",
+  "total": 289
+ },
+ {
+  "question": "Request queue: 93, 27, 30, 112, 73, 154, 92, 102\nHead starts at 50; cylinders 0 to 199; head moving towards larger cylinder numbers\n\nCalculate the total seek distance for LOOK disk scheduling.",
+  "algorithm": "LOOK",
+  "total": 231
+ },
+ {
+  "question": "Request queue: 76, 13, 63, 51, 134, 189, 136, 90\nHead starts at 72; cylinders 0 to 199; head moving towards larger cylinder numbers\n\nFind the total head movement using LOOK disk scheduling.",
+  "algorithm": "LOOK",
+  "total": 293
+ },
+ {
+  "question": "Request queue: 162, 6, 35, 27, 160, 154, 163\nHead starts at 75; cylinders 0 to 199; head moving towards larger cylinder numbers\n\nUsing LOOK disk scheduling, give the order in which requests are served and the total head movement.",
+  "algorithm": "LOOK",
+  "total": 245
+ },
+ {
+  "question": "Find the total head movement using LOOK disk scheduling.\n\nRequest queue: 34, 148, 69, 112, 106, 62, 61\nHead starts at 78; cylinders 0 to 199; head moving towards larger cylinder numbers",
+  "algorithm": "LOOK",
+  "total": 184
+ },
+ {
+  "question": "Request queue: 187, 179, 103, 175, 82, 56, 60\nHead starts at 71; cylinders 0 to 199; head moving towards larger cylinder numbers\n\nFind the total head movement using C-LOOK disk scheduling.",
+  "algorithm": "C-LOOK",
+  "total": 251
+ },
+ {
+  "question": "Using C-LOOK disk scheduling, give the order in which requests are served and the total head movement.\n\nRequest queue: 37, 75, 152, 189, 163, 159, 49, 34\nHead starts at 119; cylinders 0 to 199; head moving towards larger cylinder numbers",
+  "algorithm": "C-LOOK",
+  "total": 266
+ },
+ {
+  "question": "Request queue: 182, 165, 90, 69, 191, 6, 15, 19\nHead starts at 138; cylinders 0 to 199; head moving towards larger cylinder numbers\n\nUsing C-LOOK disk scheduling, give the order in which requests are served and the total head movement.",
+  "algorithm": "C-LOOK",
+  "total": 322
+ },
+ {
+  "question": "Calculate the total seek distance for C-LOOK disk scheduling.\n\nRequest queue: 116, 106, 44, 158, 151, 62, 171, 86\nHead starts at 70; cylinders 0 to 199; head moving towards larger cylinder numbers",
+  "algorithm": "C-LOOK",
+  "total": 246
+ },
+ {
+  "question": "Find the total head movement using C-LOOK disk scheduling.\n\nRequest queue: 73, 77, 150, 122, 83, 183, 50, 13\nHead starts at 58; cylinders 0 to 199; head moving towards smaller cylinder numbers",
+  "algorithm": "C-LOOK",
+  "total": 325
+ },
+ {
+  "question": "Calculate the total seek distance for C-LOOK disk scheduling.\n\nRequest queue: 118, 123, 32, 5, 121, 75, 11, 144\nHead starts at 66; cylinders 0 to 199; head moving towards larger cylinder numbers",
+  "algorithm": "C-LOOK",
+  "total": 244
+ },
+ {
+  "question": "Using C-LOOK disk scheduling, give the order in which requests are served and the total head movement.\n\nRequest queue: 43, 63, 11, 74, 176, 150, 154\nHead starts at 137; cylinders 0 to 199; head moving towards larger cylinder numbers",
+  "algorithm": "C-LOOK",
+  "total": 267
+ },
+ {
+  "question": "Find the total head movement using C-LOOK disk scheduling.\n\nRequest queue: 109, 13, 175, 76, 34, 155, 159\nHead starts at 52; cylinders 0 to 199; head moving towards smaller cylinder numbers",
+  "algorithm": "C-LOOK",
+  "total": 300
+ }
+]

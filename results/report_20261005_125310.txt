@@ -1,0 +1,178 @@
+============================================================
+ OSLLM TEST REPORT
+============================================================
+ Topic                          Passed   Score
+ Scheduling Fundamentals        1 / 1      100%
+ Scheduling Criteria            0 / 1        0%
+ FCFS                           0 / 2        0%
+ SJF                            0 / 2        0%
+ SRTF                           0 / 2        0%
+ Priority                       0 / 2        0%
+ Round Robin                    0 / 2        0%
+ Multilevel Queues              0 / 1        0%
+ Multiprocessor & Real-Time     0 / 1        0%
+------------------------------------------------------------
+ OVERALL                        1 / 14       7%
+ Time taken: 2.0 min
+============================================================
+
+### [PASS] Scheduling Fundamentals (theory)
+Q: What is the difference between preemptive and non-preemptive CPU scheduling?
+Check: all key concepts present
+
+**Preemptive vs. Non-Preemptive CPU Scheduling** is a fundamental distinction in operating systems, and it determines how the CPU is allocated to processes.
+
+---
+
+### ✅ **1. Definition**
+
+- **Non-Preemptive (Cooperative) Scheduling**  
+  Once a process is allocated the CPU, it **cannot be interrupted** until it voluntarily releases the CPU (e.g., by completing its task, blocking on I/O, or calling `sleep()` or `yield()`).
+
+- **Preemptive (Voluntary) Scheduling**  
+  The **scheduler can forcibly take the CPU away** from a running process, even if it hasn't completed its task. This is typically done based on **priority**, **time quantum**, or **real-time constraints**.
+
+---
+
+### ✅ **2. Key Differences**
+
+| Feature | **Non-Preemptive** | **Preemptive** |
+|--------|---------------------|----------------|
+| **CPU Interruption** | Cannot be interrupted | Can be interrupted |
+| **Scheduling Decision** | Made when a process voluntarily releases the CPU | Made by the scheduler at any time |
+| **Priority Handling** | Lower priority processes may starve | Higher priority processes can preempt lower ones |
+| **Responsiveness** | Lower (especially for real-time tasks) | Higher (can respond to urgent tasks) |
+| **Implementation Complexity** | Lower | Higher (requires context switching and preemption logic) |
+| **Examples** | FCFS, SJF (non-preemptive versions), some older systems | Round Robin, Priority (with preemption), Real-Time Scheduling (e.g., Rate-Monotonic, EDF) |
+
+---
+
+### ✅ **3. Example Scenarios**
+
+- **Non-Preemptive**  
+  A process starts running and runs until it blocks (e.g., for I/O). No other process can run until it gives up the CPU.
+
+- **Preemptive**  
+  A high-priority process can **interrupt** a lower-priority process that is currently running, even if the lower-priority process hasn't finished its task.
+
+---
+
+### ✅ **4. Implications**
+
+- **Non-Preemptive** is simpler to implement but can lead to **starvation** (low-priority processes waiting indefinitely) and **po
+
+----------------------------------------------------------------------
+
+### [FAIL] Scheduling Criteria (theory)
+Q: List the CPU scheduling criteria and say which should be maximised and which minimised.
+Check: error: <urlopen error [Errno 111] Connection refused>
+
+
+
+----------------------------------------------------------------------
+
+### [FAIL] FCFS (theory)
+Q: What is the convoy effect in FCFS scheduling?
+Check: error: <urlopen error [Errno 111] Connection refused>
+
+
+
+----------------------------------------------------------------------
+
+### [FAIL] SJF (theory)
+Q: Why is SJF scheduling called optimal, and what is its main practical difficulty?
+Check: error: <urlopen error [Errno 111] Connection refused>
+
+
+
+----------------------------------------------------------------------
+
+### [FAIL] SRTF (theory)
+Q: How does SRTF differ from non-preemptive SJF?
+Check: error: <urlopen error [Errno 111] Connection refused>
+
+
+
+----------------------------------------------------------------------
+
+### [FAIL] Priority (theory)
+Q: What is starvation in priority scheduling and how is it solved?
+Check: error: <urlopen error [Errno 111] Connection refused>
+
+
+
+----------------------------------------------------------------------
+
+### [FAIL] Round Robin (theory)
+Q: How does the size of the time quantum affect Round Robin scheduling?
+Check: error: <urlopen error [Errno 111] Connection refused>
+
+
+
+----------------------------------------------------------------------
+
+### [FAIL] Multilevel Queues (theory)
+Q: Differentiate between multilevel queue and multilevel feedback queue scheduling.
+Check: error: <urlopen error [Errno 111] Connection refused>
+
+
+
+----------------------------------------------------------------------
+
+### [FAIL] Multiprocessor & Real-Time (theory)
+Q: What is processor affinity, and how does load balancing work in multiprocessor scheduling?
+Check: error: <urlopen error [Errno 111] Connection refused>
+
+
+
+----------------------------------------------------------------------
+
+### [FAIL] FCFS (numerical)
+Q: Solve using FCFS. Processes: P1 (AT 0, BT 24), P2 (AT 0, BT 3), P3 (AT 0, BT 3). Draw the Gantt chart and find CT, TAT and WT for each process, and the average TAT and average WT.
+After your solution, end with one last line in exactly this format:
+FINAL: Average TAT = <number>, Average WT = <number>
+Check: error: <urlopen error [Errno 111] Connection refused>
+
+
+
+----------------------------------------------------------------------
+
+### [FAIL] SJF (numerical)
+Q: Solve using non-preemptive SJF. Processes: P1 (AT 0, BT 6), P2 (AT 0, BT 8), P3 (AT 0, BT 7), P4 (AT 0, BT 3). Draw the Gantt chart and find CT, TAT and WT for each process, and the average TAT and average WT.
+After your solution, end with one last line in exactly this format:
+FINAL: Average TAT = <number>, Average WT = <number>
+Check: error: <urlopen error [Errno 111] Connection refused>
+
+
+
+----------------------------------------------------------------------
+
+### [FAIL] SRTF (numerical)
+Q: Solve using SRTF (preemptive SJF). Processes: P1 (AT 0, BT 8), P2 (AT 1, BT 4), P3 (AT 2, BT 9), P4 (AT 3, BT 5). Draw the Gantt chart and find CT, TAT and WT for each process, and the average TAT and average WT.
+After your solution, end with one last line in exactly this format:
+FINAL: Average TAT = <number>, Average WT = <number>
+Check: error: <urlopen error [Errno 111] Connection refused>
+
+
+
+----------------------------------------------------------------------
+
+### [FAIL] Priority (numerical)
+Q: Solve using non-preemptive Priority scheduling. Processes: P1 (AT 0, BT 10, Priority 3), P2 (AT 0, BT 1, Priority 1), P3 (AT 0, BT 2, Priority 4), P4 (AT 0, BT 1, Priority 5), P5 (AT 0, BT 5, Priority 2). A lower priority number means higher priority. Draw the Gantt chart and find CT, TAT and WT for each process, and the average TAT and average WT.
+After your solution, end with one last line in exactly this format:
+FINAL: Average TAT = <number>, Average WT = <number>
+Check: error: <urlopen error [Errno 111] Connection refused>
+
+
+
+----------------------------------------------------------------------
+
+### [FAIL] Round Robin (numerical)
+Q: Solve using Round Robin with time quantum 4. Processes: P1 (AT 0, BT 24), P2 (AT 0, BT 3), P3 (AT 0, BT 3). Draw the Gantt chart and find CT, TAT and WT for each process, and the average TAT and average WT.
+After your solution, end with one last line in exactly this format:
+FINAL: Average TAT = <number>, Average WT = <number>
+Check: error: <urlopen error [Errno 111] Connection refused>
+
+
+
+----------------------------------------------------------------------

@@ -1,0 +1,44 @@
+{
+ "train": {
+  "examples": 8337,
+  "by_kind": {
+   "task": 1920,
+   "solve": 3000,
+   "concept": 615,
+   "mistake": 650,
+   "quantum": 180,
+   "quick": 500,
+   "mood": 700,
+   "task_compare": 300,
+   "compare": 450,
+   "refusal": 22
+  },
+  "answer_words": 2246334
+ },
+ "val": {
+  "examples": 373,
+  "by_kind": {
+   "solve": 150,
+   "compare": 22,
+   "task": 96,
+   "concept": 24,
+   "quick": 25,
+   "quantum": 9,
+   "task_compare": 15,
+   "mistake": 32
+  },
+  "answer_words": 100170
+ },
+ "test": {
+  "examples": 329,
+  "by_kind": {
+   "solve": 180,
+   "task": 128,
+   "concept": 15,
+   "refusal": 6
+  },
+  "answer_words": 99999
+ },
+ "unique_numerical_problems": 5789,
+ "test_questions_also_in_train": 0
+}
